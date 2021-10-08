@@ -1,8 +1,7 @@
 <header>
     <nav>
-        <a href="../queen/rhapsody.php">Bohemian Rhapsody</a> |
-        <a href="../qeeun/killer.php">Killer Qeeun</a> |
-        <a href="../muse/madness.php">Madness</a> |
-        <a href=""></a>
+        <a href="../views/index.php">Home</a> |
+        <a href="../songs/song.php">Songs</a> |
+        <a href="../wiki/wiki.php">Informatie</a>
     </nav>
 </header>
