@@ -6,7 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
 </head>
+<header>
+<?php require_once 'header.php'; ?>
+</header>
+
 <body>
     
 </body>
+
+<footer>
+    <?php require_once 'footer.php'; ?>
+</footer>
+
 </html>
