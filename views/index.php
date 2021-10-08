@@ -12,7 +12,6 @@
 </header>
 
 <body onload=display_ct();>
-    <span id='ct' ></span>
 </body>
 
 <footer>
