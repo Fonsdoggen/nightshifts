@@ -12,15 +12,20 @@
 </header>
 
 <body>
-    <h1>The date and time: <span id="datetime"></span></h1>
+    <h1 id="clock"></h1>
 </body>
 
 <footer>
     <?php require_once 'footer.php'; ?>
 </footer>
 
-<script>
-    var dt = new Date();
-    document.getElementById("datetime").innerHTML = dt.toLocaleString();
+<script type="text/javascript">
+    var clockElement = document.getElementById('clock');
+
+    function clock() {
+        clockElement.textContent = new Date().toString();
+    }
+
+    setInterval(clock, 100);
 </script>
 </html>
