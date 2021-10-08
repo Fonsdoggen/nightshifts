@@ -1,3 +1,9 @@
+*{
+    width: auto;
+    height: auto;
+}
+
+
 .contact{
     width: 100%;
     background-color: lightblue;
