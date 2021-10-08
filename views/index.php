@@ -12,11 +12,15 @@
 </header>
 
 <body>
-    
+    <h1>Date/Time: <span id="datetime"></span></h1>
 </body>
 
 <footer>
     <?php require_once 'footer.php'; ?>
 </footer>
 
+<script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
 </html>
