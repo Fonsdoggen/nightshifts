@@ -16,7 +16,11 @@
 </body>
 
 <footer>
-    <?php require_once 'footer.php'; ?>
+    <div class="contact">
+            <p>©</p>
+            <p>telefoonnummer</p>
+            <p>Locatie</p>
+        </div>   
 </footer>
 
 <script type="text/javascript">
