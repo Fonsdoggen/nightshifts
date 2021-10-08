@@ -12,7 +12,7 @@
 </header>
 
 <body>
-    <h1>Date/Time: <span id="datetime"></span></h1>
+    <h1>The date and time: <span id="datetime"></span></h1>
 </body>
 
 <footer>
