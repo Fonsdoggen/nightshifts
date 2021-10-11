@@ -13,15 +13,11 @@
 
 <body onload=display_ct();>
     <span id='ct' ></span>
+
+<?php require_once 'footer.php'; ?>
 </body>
 
-<footer>
-    <div class="contact">
-            <p>©</p>
-            <p>telefoonnummer</p>
-            <p>Locatie</p>
-        </div>   
-</footer>
+
 
 <script type="text/javascript"> 
     function display_c(){
