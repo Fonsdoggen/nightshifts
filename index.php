@@ -13,7 +13,6 @@
 <body onload=display_ct();>
     <?php require_once 'views/header.php'; ?>
     <main>
-        <h1>Yo Nightshitters</h1>
         <span id='ct' ></span>
     </main>
     <?php require_once 'views/footer.php'; ?>
