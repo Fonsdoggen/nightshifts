@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="<?php echo $base_url; ?>/css/main.css">
     <title>Homepage</title>
 </head>
-<<<<<<< HEAD
+
 
 <header>
     <?php require_once 'header.php'; ?>
@@ -17,7 +17,7 @@
     <span id='ct' ></span>
 
 <?php require_once 'footer.php'; ?>
-=======
+
 <body onload=display_ct();>
         <?php require_once 'header.php'; ?>
     <main>
