@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="<?php echo $base_url; ?>/css/main.css">
     <title>Homepage</title>
 </head>
+
 <header>
     <?php require_once 'header.php'; ?>
 </header>
