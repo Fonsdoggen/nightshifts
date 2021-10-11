@@ -7,20 +7,19 @@
     <link rel="stylesheet" href="<?php echo $base_url; ?>/css/main.css">
     <title>Homepage</title>
 </head>
-<header>
-    <?php require_once 'header.php'; ?>
-</header>
-
 <body onload=display_ct();>
+    <header>
+        <?php require_once 'header.php'; ?>
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+        <?php require_once 'footer.php'; ?>
+    </footer>
 </body>
 
-<footer>
-    <div class="contact">
-            <p>©</p>
-            <p>telefoonnummer</p>
-            <p>Locatie</p>
-        </div>   
-</footer>
+
 
 <script type="text/javascript"> 
     function display_c(){
