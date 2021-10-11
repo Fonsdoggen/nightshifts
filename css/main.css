@@ -12,23 +12,26 @@
 	align-content: stretch;
 }
 
-.contact{
-    width: 100%;
-    background-color: lightblue;
-    padding: 15px;
-    border-top: 2px solid #f1f1f1;
-}
 
 
-footer {
+
+footer {  
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    border-top: 2px solid #f1f1f1;
+    left: 0px;
     text-align: center;
-    width: 100%;
-    margin: 150px 0 0 0;
-    z-index: 0;
+}
+
+footer ul{
+    margin: auto;
+    width: 25%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 .qeeun{
