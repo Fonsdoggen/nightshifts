@@ -1,4 +1,4 @@
-<header>
+<header onload=display_ct();>
     <div class="dropdown">
         <a href="http://localhost/nightshifts/"><button class="dropbtn">Home</button></a>
     </div>
