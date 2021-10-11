@@ -9,10 +9,16 @@
 </head>
 <body>
     <?php require_once'../views/header.php'?>
-    <h2>Qeeun</h2>
-    <a href="queen/rhapsody.php">Bohemian rhapsody songtekst</a> |
-    <a href="queen/killer.php">Killer queen songtekst</a>
+    <div class="grid-container">
+        <div class="songs">
+    <h2>Queen</h2>
+        <a href="queen/rhapsody.php">Bohemian rhapsody songtekst</a> |
+        <a href="queen/killer.php">Killer queen songtekst</a>
+        </div>
+        <div class="songs">
     <h2>Muse</h2>
-    <a href="muse/madness.php">Madness songtekst</a>
+        <a href="muse/madness.php">Madness songtekst</a>
+        </div>
+    </div>
 </body>
 </html>

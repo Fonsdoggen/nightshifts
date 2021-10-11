@@ -17,6 +17,18 @@ body{
     background-color: lightblue;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.songs{
+    border: black solid 1px;
+    border-radius: 25px;
+    text-align: center;
+}
 
 footer {  
     position: fixed;
