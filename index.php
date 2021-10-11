@@ -8,14 +8,15 @@
     <title>Homepage</title>
 </head>
 
-<div class="header">
-
 <body onload=display_ct();>
-    <?php require_once 'views/header.php'; ?>
-    <main>
+    <div class="header">
+        <?php require_once 'views/header.php'; ?>
         <span id='ct' ></span>
-    </main>
     </div>
+    <main>
+        
+    </main>
+    
     <?php require_once 'views/footer.php'; ?>
 </body>
 
