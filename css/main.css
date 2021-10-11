@@ -23,6 +23,7 @@ footer {
     z-index: 0;
 }
 
-.body{
+body{
     background-color: #4682b4;
+    background-image: url("https://monophy.com/media/h8lIbOgIisePPJvbhU/monophy.gif");
 }
