@@ -9,24 +9,14 @@
 </head>
 
 
-<header>
+
+<body onload=display_ct();>
     <?php require_once 'header.php'; ?>
-</header>
-
-<body onload=display_ct();>
-    <span id='ct' ></span>
-
-<?php require_once 'footer.php'; ?>
-
-<body onload=display_ct();>
-        <?php require_once 'header.php'; ?>
     <main>
-        
+        <h1>Yo Nightshifters</h1>
+        <span id='ct' ></span>
     </main>
-    
-<?php require_once 'footer.php'; ?>
-
-
+    <?php require_once 'footer.php'; ?>
 </body>
 
 
