@@ -9,8 +9,8 @@
 <body>
     <?php require_once'../views/header.php'?>
     <h2>Qeeun</h2>
-    <a href="qeeun/rhapsody.php">Bohemian rhapsody songtekst</a> |
-    <a href="qeeun/killer.php">Killer qeeun songtekst</a>
+    <a href="queen/rhapsody.php">Bohemian rhapsody songtekst</a> |
+    <a href="queen/killer.php">Killer qeeun songtekst</a>
     <h2>Muse</h2>
     <a href="muse/madness.php">Madness songtekst</a>
 </body>
