@@ -12,11 +12,8 @@ header {
 	align-content: stretch;
     background-color: lightblue;
     width: fill;
-    padding-right: 15px;
-}
-
-.header {
-    background-color: lightblue;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .bigLogo {
