@@ -17,6 +17,18 @@ body{
     background-color: lightblue;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.songs{
+    border: black solid 1px;
+    border-radius: 25px;
+    text-align: center;
+}
 
 footer {  
     position: fixed;
@@ -77,11 +89,11 @@ footer ul{
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  /* Change color of dropdown links on hover */            
+  .dropdown-content a:hover {background-color: #ddd;}       
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {display: block;}              
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: rgb(32, 146, 240);}
