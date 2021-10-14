@@ -3,14 +3,11 @@
     <div class="logo">
         <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>img/codecamp.png" alt="CodeCamp Logo"></a>
     </div>
-    <div class="dropdown">
-        
+    <div class="nav">
         <a href="<?php echo $base_url; ?>"><button class="dropbtn">Home</button></a>
-        <a href="<?php echo $base_url; ?>songs/song.php"><button class="dropbtn">Songs</a>
-        <a href="<?php echo $base_url; ?>tools/tool.php"><button class="dropbtn">Tools</a>
-        <a href="<?php echo $base_url; ?>dranken/drank.php"><button class="dropbtn">Dranken</a
-        <div class="dropdown-content">
-        </div>
+        <a href="<?php echo $base_url; ?>songs/song.php"><button class="dropbtn">Songs</button></a>
+        <a href="<?php echo $base_url; ?>tools/tool.php"><button class="dropbtn">Tools</button></a>
+        <a href="<?php echo $base_url; ?>dranken/drank.php"><button class="dropbtn">Dranken</button></a>
     </div>
     <span id='ct' ></span>
 </header>
