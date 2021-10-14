@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <title>Dranken</title>
 </head>
-<body>
+<body onload=display_ct();>
     <?php require_once'../views/header.php' ?>
     <a href="frisdranken/frisdrank.php">Frisdranken</a>
     
