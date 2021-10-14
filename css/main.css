@@ -59,6 +59,10 @@ footer ul{
     background: #4682b4;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Dropdown Button*/
 .dropbtn {
     background-color: #4682b4;
