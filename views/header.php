@@ -7,7 +7,7 @@
         
             <a href="songs/song.php"><button class="dropbtn">Songs</button></a>
         <div class="dropdown-content">
-            <a href="#">Songs</a>
+            <a href="<?php echo $base_url; ?>songs/song.php">Songs</a>
             <a href="#">Tools</a>
             <a href="#">etc</a>
         </div>
