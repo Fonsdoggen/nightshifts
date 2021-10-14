@@ -19,6 +19,17 @@ header {
     background-color: lightblue;
 }
 
+.bigLogo {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+.bigLogo img{
+    width: 750px;
+}
+
+
 body{
     margin: 0 auto;
 }

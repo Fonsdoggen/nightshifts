@@ -11,7 +11,9 @@
 <body onload=display_ct();>
     <?php require_once 'views/header.php'; ?>
     <main>
-        
+        <div class="bigLogo">
+            <img src="img/CodeCampBig.png" alt="Background">
+        </div>
     </main>
     
     <?php require_once 'views/footer.php'; ?>
