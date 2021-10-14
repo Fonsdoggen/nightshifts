@@ -3,15 +3,7 @@
     height: auto;
 }
 
-header{
-    display: flex;
-}
-
-body{
-    margin: 0 auto;
-}
-
-.header{
+header {
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -21,6 +13,16 @@ body{
     background-color: lightblue;
     padding-right: 15px;
 }
+
+.header {
+    background-color: lightblue;
+}
+
+body{
+    margin: 0 auto;
+    width: 80%;
+}
+
 /*  Grid songs */
 .grid-container {
     display: grid;
@@ -61,6 +63,10 @@ footer ul{
 
 .qeeun{
     background: #4682b4;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Dropdown Button*/
