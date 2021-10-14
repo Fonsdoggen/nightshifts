@@ -3,6 +3,10 @@
     height: auto;
 }
 
+header{
+    display: flex;
+}
+
 body{
     margin: 0 auto;
 }
@@ -97,3 +101,7 @@ footer ul{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: rgb(32, 146, 240);}
+
+  .logo img{
+      width: 100px;
+  }
