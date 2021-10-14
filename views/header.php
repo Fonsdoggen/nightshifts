@@ -1,4 +1,3 @@
-<?php require_once 'backend/config.php'; ?>
 <header onload=display_ct();>
     <div class="logo">
         <a href="<?php echo $base_url; ?>"><img src="img/codecamp.png" alt="CodeCamp Logo"></a>

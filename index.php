@@ -9,6 +9,7 @@
 </head>
 
 <body onload=display_ct();>
+    <?php require_once 'backend/config.php'; ?>
     <div class="header">
         <?php require_once 'views/header.php'; ?>
         <span id='ct' ></span>
