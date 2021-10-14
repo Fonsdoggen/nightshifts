@@ -105,7 +105,5 @@ footer ul{
   .dropdown:hover .dropbtn {background-color: rgb(32, 146, 240);}
 
   .logo img{
-      width: 100px;
-      padding-right: 100px;
-      height: 80px;
+      width: 28%;
   }
