@@ -9,7 +9,7 @@
         <div class="dropdown-content">
             <a href="<?php echo $base_url; ?>songs/song.php">Songs</a>
             <a href="#">Tools</a>
-            <a href="#">Dranken</a>
+            <a href="<?php echo $base_url; ?>dranken/drank.php">Dranken</a>
         </div>
     </div>
     <span id='ct' ></span>
