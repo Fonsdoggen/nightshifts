@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <title>Songteksten en Artiesten</title>
 </head>
-<body>
+<body onload=display_ct();>
     <?php require_once'../views/header.php'?>
     <div class="grid-container">
         <div class="songs">
