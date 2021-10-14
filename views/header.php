@@ -6,10 +6,10 @@
     <div class="dropdown">
         
         <a href="<?php echo $base_url; ?>"><button class="dropbtn">Home</button></a>
+        <a href="<?php echo $base_url; ?>songs/song.php"><button class="dropbtn">Songs</a>
+        <a href="<?php echo $base_url; ?>tools/tool.php"><button class="dropbtn">Tools</a>
+        <a href="<?php echo $base_url; ?>dranken/drank.php"><button class="dropbtn">Dranken</a
         <div class="dropdown-content">
-            <a href="<?php echo $base_url; ?>songs/song.php">Songs</a>
-            <a href="<?php echo $base_url; ?>tools/tool.php">Tools</a>
-            <a href="<?php echo $base_url; ?>dranken/drank.php">Dranken</a>
         </div>
     </div>
     <span id='ct' ></span>

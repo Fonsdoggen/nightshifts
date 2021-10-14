@@ -8,6 +8,7 @@
     <title>Killer Queen</title>
 </head>
 <body>
+    <?php require_once'../../views/header.php' ?>
     <p>
         She keeps her Moet et Chandon<br>
         In her pretty cabinet<br>

@@ -10,6 +10,7 @@
 <body onload=display_ct();>
     <?php require_once'../views/header.php' ?>
     <a href="frisdranken/frisdrank.php">Frisdranken</a>
+    <a href="warmedranken/warmdrank.php">Warme dranken</a>
     
 </body>
 </html>
