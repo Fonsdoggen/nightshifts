@@ -4,7 +4,8 @@
         <a href="<?php echo $base_url; ?>"><img src="img/codecamp.png" alt="CodeCamp Logo"></a>
     </div>
     <div class="dropdown">
-        <button class="dropbtn">Songs</button>
+        
+            <a href="songs/song.php"><button class="dropbtn">Songs</button></a>
         <div class="dropdown-content">
             <a href="#">Songs</a>
             <a href="#">Tools</a>
