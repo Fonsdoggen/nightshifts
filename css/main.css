@@ -27,12 +27,16 @@ body{
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+    padding-top: 30px;
 }
 
 .songs{
-    border: black solid 1px;
+    border: #BEBDB8 solid 5px;
+    background-color: #BEBDB8;
     border-radius: 25px;
     text-align: center;
+    width: 50%;
+    margin: auto;
 }
 
 footer {  
