@@ -8,7 +8,7 @@
         <a href="<?php echo $base_url; ?>"><button class="dropbtn">Home</button></a>
         <div class="dropdown-content">
             <a href="<?php echo $base_url; ?>songs/song.php">Songs</a>
-            <a href="#">Tools</a>
+            <a href="<?php echo $base_url; ?>tools/tool.php">Tools</a>
             <a href="<?php echo $base_url; ?>dranken/drank.php">Dranken</a>
         </div>
     </div>
