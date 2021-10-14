@@ -20,5 +20,6 @@
         <a href="muse/madness.php">Madness songtekst</a>
         </div>
     </div>
+    <?php require_once'../views/footer.php'?>
 </body>
 </html>
