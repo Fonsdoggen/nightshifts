@@ -5,9 +5,9 @@
     </div>
     <div class="nav">
         <a href="<?php echo $base_url; ?>"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], ".php") == false){echo "active";} ?>">Home</button></a>
-        <a href="<?php echo $base_url; ?>songs/song.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "song.php") !== false){echo "active";} ?>">Songs</button></a>
-        <a href="<?php echo $base_url; ?>tools/tool.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "tool.php") !== false){echo "active";} ?>">Tools</button></a>
-        <a href="<?php echo $base_url; ?>dranken/drank.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "drank.php") !== false){echo "active";} ?>">Dranken</button></a>
+        <a href="<?php echo $base_url; ?>songs/song.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/songs/song.php") !== false){echo "active";} ?>">Songs</button></a>
+        <a href="<?php echo $base_url; ?>tools/tool.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/tools/tool.php") !== false){echo "active";} ?>">Tools</button></a>
+        <a href="<?php echo $base_url; ?>dranken/drank.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/dranken/drank.php") !== false){echo "active";} ?>">Dranken</button></a>
     </div>
     <span id='ct' ></span>
 </header>
