@@ -31,6 +31,9 @@ header {
     width: 750px;
 }
 
+.song-texts{
+    text-align: center;
+}
 
 body{
     
@@ -111,8 +114,12 @@ a{
 }
   
   /* Change color of dropdown links on hover */            
-  .dropdown-content a:hover {background-color: #ddd;}                    
+  .nav .dropbtn:hover {background-color: #0d3a5f;}                    
 
   .logo img{
       width: 32%;
+  }
+
+  .active {
+      background-color: red;
   }
