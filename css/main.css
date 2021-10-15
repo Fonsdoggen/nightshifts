@@ -105,6 +105,10 @@ a{
 .george{
     width: 25%;
 }
+
+.rood{
+    background-color: red;
+}
   
   /* Change color of dropdown links on hover */            
   .dropdown-content a:hover {background-color: #ddd;}                    
