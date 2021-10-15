@@ -29,10 +29,7 @@ header {
 
 
 body{
-    background-image: 	url('../img/wicher.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    
     margin: 0 auto;
 }
 
@@ -60,7 +57,6 @@ footer {
     width: 100%;
     background-color: lightblue;
     padding: 10px;
-    border-top: 2px solid #f1f1f1;
     left: 0px;
     text-align: center;
 }
