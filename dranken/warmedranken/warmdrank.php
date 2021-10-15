@@ -10,7 +10,7 @@
 <body class="paars">
     <?php require_once'../../views/header.php' ?>
     <h2>Koffie</h2>
-    <a href="https://www.google.com/search?q=george+clooney&rlz=1C1CHBF_nlNL931NL931&oq=george+clooney&aqs=chrome..69i57j46i131i433i512j0i512l4j46i512j0i512l3.3912j0j7&sourceid=chrome&ie=UTF-8">George Clooney</a>
+    <a href="<?php echo $base_url; ?>acters/george.php">George Clooney</a>
     <p>Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant (Coffea spp.) die vanwege hun vorm koffiebonen worden genoemd. Koffie bevat het stimulerende middel cafeïne. De meeste soorten in het geslacht Coffea komen van nature voor in tropisch Afrika en op de eilanden in de Indische Oceaan. Ze vinden hun oorsprong in Ethiopië, Jemen en Soedan.
 
 De koffieboon is een belangrijk exportproduct van landen rondom de evenaar, zoals Brazilië, Vietnam en Colombia. Koffieplanten worden vooral gecultiveerd op plantages in tropische landen, voor export naar landen met een gematigd klimaat. Samen met kennis van de drank verspreidde de plant zich vanaf de 15e eeuw uit tropisch Afrika naar Noord-Afrika, het Midden-Oosten en Europa. Sinds de 19e eeuw bevinden de belangrijkste producenten en exporteurs van koffiebonen zich in de tropische gebieden van Zuid- en Centraal-Amerika, Afrika en Azië. De meest geteelde soorten zijn Coffea arabica (arabica) en C. canephora (robusta).
