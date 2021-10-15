@@ -70,7 +70,8 @@ footer ul{
     justify-content: space-evenly;
 }
 
-.qeeun{
+/* qeeun 100% correct*/
+.qeeun{ 
     background: #4682b4;
 }
 
