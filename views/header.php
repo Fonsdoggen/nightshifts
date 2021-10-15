@@ -4,10 +4,10 @@
         <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>img/codecamp.png" alt="CodeCamp Logo"></a>
     </div>
     <div class="nav">
-        <a href="<?php echo $base_url; ?>"><button class="dropbtn">Home</button></a>
-        <a href="<?php echo $base_url; ?>songs/song.php"><button class="dropbtn">Songs</button></a>
-        <a href="<?php echo $base_url; ?>tools/tool.php"><button class="dropbtn">Tools</button></a>
-        <a href="<?php echo $base_url; ?>dranken/drank.php"><button class="dropbtn">Dranken</button></a>
+        <a href="<?php echo $base_url; ?>"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], ".php") == false){echo "active";} ?>">Home</button></a>
+        <a href="<?php echo $base_url; ?>songs/song.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "song.php") !== false){echo "active";} ?>">Songs</button></a>
+        <a href="<?php echo $base_url; ?>tools/tool.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "tool.php") !== false){echo "active";} ?>">Tools</button></a>
+        <a href="<?php echo $base_url; ?>dranken/drank.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "drank.php") !== false){echo "active";} ?>">Dranken</button></a>
     </div>
     <span id='ct' ></span>
 </header>
