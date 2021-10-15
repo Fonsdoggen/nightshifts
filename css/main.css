@@ -78,7 +78,11 @@ a{
     text-decoration: none;
 }
 .orange{
-    background-color:  #b97d4b;
+    background-color:  orange;
+}
+
+.paars{
+    background-color: purple;
 }
 
 /* Dropdown Button*/
