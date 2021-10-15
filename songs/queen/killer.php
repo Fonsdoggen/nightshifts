@@ -8,7 +8,9 @@
     <title>Killer Queen</title>
 </head>
 <body>
+    <div class="song-texts qeeun">
     <?php require_once'../../views/header.php' ?>
+    <h2>Killer Queen</h2>
     <p>
         She keeps her Moet et Chandon<br>
         In her pretty cabinet<br>
@@ -61,5 +63,6 @@
         Wanna try?<br>
         You wanna try<br>
     </p>
+    </div>
 </body>
 </html>

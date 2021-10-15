@@ -31,6 +31,9 @@ header {
     width: 750px;
 }
 
+.song-texts{
+    text-align: center;
+}
 
 body{
     
@@ -104,6 +107,10 @@ a{
 
 .george{
     width: 25%;
+}
+
+.rood{
+    background-color: red;
 }
   
   /* Change color of dropdown links on hover */            

@@ -9,6 +9,8 @@
 </head>
 <body class="qeeun">
     <?php require_once'../../views/header.php' ?>
+    <div class="song-texts">
+    <h2>Bohemian Rhapsody</h2>
     <p>
         Is this the real life?<br>
         Is this just fantasy?<br>
@@ -68,5 +70,6 @@
         Nothing really matters to me<br>
         Any way the wind blows...<br>
     </p>
+    </div>
 </body>
 </html>
