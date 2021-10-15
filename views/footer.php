@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <footer>
         <ul>
             <p>©CodeCamp</p>
