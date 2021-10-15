@@ -16,6 +16,10 @@ header {
     padding-left: 10%;
 }
 
+.nav {
+    margin-right: 7%;
+}
+
 .bigLogo {
     display: flex;
     justify-content: center;
