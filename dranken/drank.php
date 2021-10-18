@@ -9,8 +9,15 @@
 </head>
 <body onload=display_ct();>
     <?php require_once'../views/header.php' ?>
-    <a href="frisdranken/frisdrank.php">Frisdranken</a>
-    <a href="warmedranken/warmdrank.php">Warme dranken</a>
-    
+    <div class="grid-container">
+        <div class="linkBox">
+            <h2>Frisdranken</h2>
+            <a href="frisdranken/frisdrank.php">Cola, Sinas en 7Up</a>
+        </div>
+        <div class="linkBox">
+            <h2>Warme dranken</h2>
+            <a href="warmedranken/warmdrank.php">Koffie, latte en thee</a>
+        </div> 
+    </div>
 </body>
 </html>
