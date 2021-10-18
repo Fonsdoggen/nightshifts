@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Bohemian Rhapsody</title>
 </head>
-<body class="qeeun">
+<body class="qeeun" onload=display_ct();>
     <?php require_once'../../views/header.php' ?>
     <div class="song-texts">
     <h2>Bohemian Rhapsody</h2>
@@ -71,5 +71,6 @@
         Any way the wind blows...<br>
     </p>
     </div>
+    <a href="../song.php"><button>Terug</button></a>
 </body>
 </html>

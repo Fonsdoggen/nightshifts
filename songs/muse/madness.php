@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Madness</title>
 </head>
-<body class="rood">
+<body class="rood" onload=display_ct();>
     <?php require_once'../../views/header.php' ?>
     <h2>Muse Madness Songtekst</h2>
     <p>
@@ -43,5 +43,6 @@
         Our love is<br>
         Madness<br>
     </p>
+    <a href="../song.php"><button>Terug</button></a>
 </body>
 </html>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Handzagen</title>
 </head>
-<body>
+<body onload=display_ct();>
     <?php require_once'../../views/header.php' ?>
     <div>
         <h2>Handzagen</h2>
