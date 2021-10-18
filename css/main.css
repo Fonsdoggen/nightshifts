@@ -49,9 +49,9 @@ body{
     padding-top: 30px;
 }
 
-.songs{
+.linkBox{
     border: #4682b4 solid 5px;
-    background-color: #5dc4ff83;
+    background-color: lightblue;
     border-radius: 25px;
     text-align: center;
     width: 50%;
