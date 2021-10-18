@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Frisdranken</title>
 </head>
-<body class="orange">
+<body class="orange" onload=display_ct();>
     <?php require_once'../../views/header.php' ?>
     <h2>Coca Cola</h2>
     <a href="<?php echo $base_url; ?>acters/moore.php">Roger Moore</a>

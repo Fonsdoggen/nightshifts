@@ -8,7 +8,7 @@
 <body onload=display_ct();>
     <?php require_once '../views/header.php'; ?>
     <main>
-        
+        <a href="toolios/handzagen.php">Handzagen</a>
     </main>
     
     <?php require_once '../views/footer.php'; ?>

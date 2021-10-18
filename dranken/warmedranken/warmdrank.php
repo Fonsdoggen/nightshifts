@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Warme Dranken</title>
 </head>
-<body class="paars">
+<body class="paars" onload=display_ct();>
     <?php require_once'../../views/header.php' ?>
     <h2>Koffie</h2>
     <a href="<?php echo $base_url; ?>acters/george.php">George Clooney</a>

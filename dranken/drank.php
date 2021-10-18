@@ -11,6 +11,6 @@
     <?php require_once'../views/header.php' ?>
     <a href="frisdranken/frisdrank.php">Frisdranken</a>
     <a href="warmedranken/warmdrank.php">Warme dranken</a>
-    
+    <?php require_once'../views/footer.php' ?>
 </body>
 </html>
