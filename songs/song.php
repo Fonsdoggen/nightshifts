@@ -10,7 +10,6 @@
 <body onload=display_ct();>
     <?php require_once'../views/header.php'?>
     <div class="grid-container">
-        <div class="songs">
         <div class="linkBox">
             <h2>Queen</h2>
             <a href="queen/rhapsody.php">Bohemian rhapsody songtekst</a> |
