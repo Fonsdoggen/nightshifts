@@ -77,6 +77,21 @@ footer ul{
     justify-content: space-evenly;
 }
 
+ul{ 
+    display: block;
+    list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+ul a{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
 /* qeeun 100% correct*/
 .qeeun{ 
     background: #4682b4;
