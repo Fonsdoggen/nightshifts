@@ -11,11 +11,12 @@
     <?php require_once'../views/header.php'?>
     <div class="grid-container">
         <div class="songs">
+        <div class="linkBox">
             <h2>Queen</h2>
             <a href="queen/rhapsody.php">Bohemian rhapsody songtekst</a> |
             <a href="queen/killer.php">Killer queen songtekst</a>
         </div>
-        <div class="songs">
+        <div class="linkBox">
             <h2>Muse</h2>
             <a href="muse/madness.php">Madness songtekst</a>
         </div>
