@@ -8,7 +8,12 @@
 <body onload=display_ct();>
     <?php require_once '../views/header.php'; ?>
     <main>
-        <a href="toolios/handzagen.php">Handzagen</a>
+    <div class="grid-container">
+        <div class="linkBox">
+            <h2>Gereedschap</h2>
+            <a href="toolios/handzagen.php">Handzagen</a> |
+        </div>
+    </div>
     </main>
     
     <?php require_once '../views/footer.php'; ?>
