@@ -38,7 +38,7 @@
             And I've seen your loving<br>
             Mine is gone<br>
         </p>
-        <?php require_once'../../views/footer.php'?>
     </div>
+    <?php require_once'../../views/footer.php'?>
 </body>
 </html>
