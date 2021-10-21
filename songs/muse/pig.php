@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Plug in baby</title>
 </head>
-<body class="rood" onload =display_ct();>
+<body class="orange" onload =display_ct();>
     <div class="song-texts">
         <?php require_once'../../views/header.php'?>
         <h2>Muse Plug in baby Songtekst</h2>
