@@ -70,7 +70,6 @@
             Nothing really matters to me<br>
             Any way the wind blows...<br>
         </p>
-        <a href="../song.php"><button>Terug</button></a>
     </div>
     
 </body>
