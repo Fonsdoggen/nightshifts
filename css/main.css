@@ -148,6 +148,14 @@ a{
     font-size: 50px;
 }
 
+.descriptionKiller{
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 40px;
+    border-top: 2px solid lightblue;
+}
+
 iframe {
     width: 600px;
     height: 400px;
