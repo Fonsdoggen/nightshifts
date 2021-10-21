@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Killer Queen</title>
 </head>
-<body>
+<body onload=display_ct();>
     <div class="song-texts qeeun">
     <?php require_once'../../views/header.php' ?>
     <h2>Killer Queen</h2>
@@ -64,5 +64,6 @@
         You wanna try<br>
     </p>
     </div>
+    <a href="../song.php"><button>Terug</button></a>
 </body>
 </html>
