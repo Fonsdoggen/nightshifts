@@ -8,7 +8,7 @@
     <title>Madness</title>
 </head>
 <body class="rood" onload=display_ct();>
-    <div class="song-texts qeeun">
+    <div class="song-texts">
         <?php require_once'../../views/header.php' ?>
         <h2>Muse Madness Songtekst</h2>
         <p>

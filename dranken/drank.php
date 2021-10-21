@@ -19,5 +19,6 @@
             <a href="warmedranken/warmdrank.php">Koffie, latte en thee</a>
         </div> 
     </div>
+    <?php require_once'../views/footer.php' ?>
 </body>
 </html>
