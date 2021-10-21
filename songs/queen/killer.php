@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Killer Queen</title>
 </head>
-<body onload=display_ct();>
+<body style="overflow: hidden" onload=display_ct();>
     <div class="song-texts qeeun">
         <?php require_once'../../views/header.php' ?>
         <h2>Killer Queen</h2>
@@ -68,7 +68,6 @@
             </p>
         </div>
         <p class="descriptionKiller"><b>Killer Queen</b> is een nummer van de Britse rockband Queen. Met deze vierde single bereikten ze begin 1975 de tweede plaats in de Engelse hitlijsten en werden ze bekend bij het grote publiek. Het nummer is geschreven door zanger en pianist Freddie Mercury en is verschenen op het album Sheer Heart Attack. Mercury heeft aangegeven dat hij bij het schrijven van dit nummer beïnvloed is door onder andere vroege nummers van The Beatles en The Beach Boys en tekstueel door Noël Coward. De tekst is geschreven voordat de complexere muzikale stukken werden geschreven.</p>
-        <a href="https://nl.wikipedia.org/wiki/Easter_egg"><button>Easter-Egg</button></a>
         
     </div>
     <?php require_once '../../views/footer.php'; ?>
