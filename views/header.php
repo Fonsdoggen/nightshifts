@@ -8,6 +8,7 @@
         <a href="<?php echo $base_url; ?>songs/song.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/songs") !== false){echo "active";} ?>">Songs</button></a>
         <a href="<?php echo $base_url; ?>tools/tool.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/tools") !== false){echo "active";} ?>">Tools</button></a>
         <a href="<?php echo $base_url; ?>dranken/drank.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/dranken") !== false){echo "active";} ?>">Dranken</button></a>
+        <a href="javascript:history.go(-1)"><button class="dropbtn">Terug</button></a>
     </div>
     <span id='ct' ></span>
 </header>
@@ -40,5 +41,10 @@
 
         document.getElementById('ct').innerHTML = x3;
         display_c();
+    }
+
+    $previous = "javascript:history.go(-1)";
+    if(isset($_SERVER['HTTP_REFERER'])) {
+        $previous = $_SERVER['HTTP_REFERER'];
     }
 </script>
