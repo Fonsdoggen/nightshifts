@@ -20,5 +20,6 @@
         <a href="https://www.imdb.com/title/tt0090264/?ref_=nv_sr_srsg_0">A view to Kill</a>
     </ul>
     <img src="../img/roger.jpg" >
+    <?php require_once'../views/footer.php'?>
 </body>
 </html>
