@@ -154,6 +154,7 @@ a{
     margin-right: 15%;
     padding-top: 40px;
     border-top: 2px solid lightblue;
+    text-align: left;
 }
 
 iframe {
