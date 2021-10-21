@@ -1,0 +1,7 @@
+Als klant wil ik tekening van de navigatiestructuur
+Als klant wil ik vanaf iedere pagina terug kunnen naar de hoofdpagina
+Als klant wil ik een kruimelpadfunctie
+Als klant wil ik dat de “Uprising” songtekst in rode tekst op een groene pagina komt
+Als klant wil ik ons adres opgenomen hebben: Koestraat 1 in Den Bosch
+Als klant wil ik een kleine afbeelding met de plattegrond van de omgeving van onze vestiging
+Graag wil ik chat functionaliteit toegevoegd zien worden op de website, vergelijkbaar als in Twitter zit)
