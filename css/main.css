@@ -132,3 +132,10 @@ a{
   .active {
       background-color: red;
   }
+.songContent{
+    font-size: 25px;
+}
+
+.song-texts h2{
+    font-size: 50px;
+}
