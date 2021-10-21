@@ -12,7 +12,7 @@
         <?php require_once'../../views/header.php' ?>
         <h2>Killer Queen</h2>
         <div class="songContent">
-            <iframe src="https://www.youtube.com/embed/2ZBtPf7FOoM">
+            <iframe src="https://www.youtube.com/embed/2ZBtPf7FOoM?controls=0">
             </iframe>
             <p>
                 She keeps her Moet et Chandon<br>
