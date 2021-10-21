@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Bohemian Rhapsody</title>
 </head>
-<body style="overflow: hidden" onload=display_ct();>
+<body onload=display_ct();>
     <div class="song-texts qeeun">
         <?php require_once'../../views/header.php' ?>
         <h2>Bohemian Rhapsody</h2>
