@@ -42,9 +42,4 @@
         document.getElementById('ct').innerHTML = x3;
         display_c();
     }
-
-    $previous = "javascript:history.go(-1)";
-    if(isset($_SERVER['HTTP_REFERER'])) {
-        $previous = $_SERVER['HTTP_REFERER'];
-    }
 </script>
