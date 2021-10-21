@@ -11,7 +11,11 @@
     <div class="grid-container">
         <div class="linkBox">
             <h2>Gereedschap</h2>
-            <a href="toolios/handzagen.php">Handzagen</a> |
+            <a href="tools/handzagen.php">Handzagen</a> |
+        </div>
+        <div class="linkBox">
+            <h2>Boeken</h2>
+            <a href="boeken/boek.php">Boeken</a> |
         </div>
     </div>
     </main>
