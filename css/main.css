@@ -134,6 +134,14 @@ a{
   }
 .songContent{
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.songContent p{
+    width: 600px;
+    height: 400px;
+    overflow:auto;
 }
 
 .song-texts h2{
