@@ -18,7 +18,8 @@
         <div class="linkBox">
             <h2>Muse</h2>
             <a href="muse/madness.php">Madness songtekst</a> |
-            <a href="muse/pig.php">Plug in baby songtekst</a>
+            <a href="muse/pig.php">Plug in baby songtekst</a> |
+            <a href="muse/uprising.php">Uprising Songtekst</a>
         </div>
     </div>
     <?php require_once'../views/footer.php'?>

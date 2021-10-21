@@ -121,6 +121,13 @@ a{
 .rood{
     background-color: red;
 }
+
+.song-uprising, .song-uprising h2{
+    background-color: green;
+    color: red;
+    text-align: center;
+    margin-top: 0px;
+}
   
   /* Change color of dropdown links on hover */            
   .nav .dropbtn:hover {background-color: #0d3a5f;}                    
