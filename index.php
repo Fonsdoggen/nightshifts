@@ -20,7 +20,7 @@
     <ul>
         <p>©CodeCamp</p>
         <p>+31 6 2212022</p>
-        <p>Tibet</p>
+        <p>Den Bosch</p>
     </ul> 
     </footer>
 </body>

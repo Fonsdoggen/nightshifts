@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php require_once'../views/header.php' ?>
-    <h2>Rooger Moore As James Bond</h2>
+    <h2>Roger Moore As James Bond</h2>
     <ul>
         <a href="https://www.imdb.com/title/tt0070328/?ref_=nv_sr_srsg_0">Live And Let Die</a>
         <a href="https://www.imdb.com/title/tt0071807/?ref_=nv_sr_srsg_0">The Man With The Golden Gun</a>
