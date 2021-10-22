@@ -44,7 +44,6 @@
             Our love is<br>
             Madness<br>
         </p>
-        <a href="../song.php"><button>Terug</button></a>
     </div>
     <?php require_once'../../views/footer.php'?>
 </body>
