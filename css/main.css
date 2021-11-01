@@ -136,6 +136,10 @@ a{
     text-align: center;
     margin-top: 0px;
 }
+
+.resize{
+    width: 50%;
+}
   
   /* Change color of dropdown links on hover */            
   .nav .dropbtn:hover {background-color: #0d3a5f;}                    
