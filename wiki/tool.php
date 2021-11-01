@@ -12,11 +12,7 @@
     <div class="grid-container">
         <div class="linkBox">
             <h2>Gereedschap</h2>
-            <a href="tools/handzagen.php">Handzagen</a> |
-        </div>
-        <div class="linkBox">
-            <h2>Boeken</h2>
-            <a href="boeken/boek.php">Boeken</a> |
+            <a href="toolios/handzagen.php">Handzagen</a> | <a href="toolios/hamer.php">Hamer</a>
         </div>
     </div>
     <?php require_once'../views/footer.php'?>

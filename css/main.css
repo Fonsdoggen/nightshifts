@@ -35,6 +35,9 @@ header {
     text-align: center;
 }
 
+#floated{
+    float: right;
+}
 body{
     
     margin: 0 auto;
@@ -68,22 +71,23 @@ footer {
 }
 
 ul p{
-    margin-top: 2px;
+    margin: 0 auto;
 }
 
 ul{ 
     display: block;
     list-style-type: disc;
-  margin-top: 1em;
-  margin-bottom: 1 em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 40px;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
 }
 ul a{
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    color:black;
 }
 
 /* qeeun 100% correct*/
