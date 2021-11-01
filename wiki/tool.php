@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,8 +8,7 @@
     <title>Tools</title>
 </head>
 <body onload=display_ct();>
-    <?php require_once '../views/header.php'; ?>
-    <main>
+    <?php require_once'../views/header.php'?>
     <div class="grid-container">
         <div class="linkBox">
             <h2>Gereedschap</h2>
@@ -18,7 +19,6 @@
             <a href="boeken/boek.php">Boeken</a> |
         </div>
     </div>
-    </main>
-    
-    <?php require_once '../views/footer.php'; ?>
+    <?php require_once'../views/footer.php'?>
 </body>
+</html>
