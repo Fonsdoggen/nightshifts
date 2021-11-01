@@ -71,7 +71,7 @@ footer {
 }
 
 ul p{
-    margin-top: 2px;
+    margin: 0 auto;
 }
 
 ul{ 
@@ -87,6 +87,7 @@ ul a{
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    color:black;
 }
 
 /* qeeun 100% correct*/
