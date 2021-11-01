@@ -19,7 +19,7 @@
     <footer>
     <ul>
         <p>©CodeCamp</p>
-        <p>+31 6 2212022</p>
+        <a href="">+31 6 2212022</a>
         <a href="https://duckduckgo.com/?q=koestraat+1+in+Den+Bosch&t=ffab&ia=web&iaxm=maps">Den Bosch Koestraat 1</a> 
     </ul> 
     </footer>
