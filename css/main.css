@@ -94,6 +94,10 @@ ul a{
     background: #4682b4;
 }
 
+.MyBaby{
+    background-color: orange;
+}
+
 a{
     text-decoration: none;
 }
@@ -165,6 +169,7 @@ a{
     padding-top: 40px;
     border-top: 2px solid lightblue;
     text-align: left;
+    padding-bottom: 100%;
 }
 
 iframe {
