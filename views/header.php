@@ -1,5 +1,13 @@
 <header>
-    <?php require_once 'C:/laragon/www/nightshifts/backend/config.php'; ?>
+    <?php
+    //    ifstatement, omdat thomas niet op C-schrijf werkt!
+    if (file_exists('C:/laragon/www/nightshifts/backend/config.php')) {
+        require_once 'C:/laragon/www/nightshifts/backend/config.php';
+    }
+    else {
+        require_once 'S:/help/laragon/www/nightshifts/backend/config.php';
+    }
+    ?>
     <div class="logo">
         <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>img/codecamp.png" alt="CodeCamp Logo"></a>
     </div>
