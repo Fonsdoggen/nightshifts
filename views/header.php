@@ -16,6 +16,8 @@
         <a href="<?php echo $base_url; ?>songs/song.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/songs") !== false){echo "active";} ?>">Songs</button></a>
         <a href="<?php echo $base_url; ?>wiki/tool.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/wiki") !== false){echo "active";} ?>">Wiki</button></a>
         <a href="<?php echo $base_url; ?>dranken/drank.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/dranken") !== false){echo "active";} ?>">Dranken</button></a>
+        <a href="<?php echo $base_url; ?>personages/personages.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/personages") !== false){echo "active";} ?>">Personages</button></a>
+
         <!-- <a href="javascript:history.go(-1)"><button class="dropbtn">Terug</button></a> -->
     </div>
     <span id='ct' ></span>
