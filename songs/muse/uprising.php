@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Uprising</title>
 </head>
-<body onload =display_ct();>
+<body class="song-uprising" onload =display_ct();>
     <?php require_once'../../views/header.php' ?>
-    <div class="song-texts song-uprising">
+    <div class="song-texts">
         <?php require_once'../../views/header.php' ?>
         <h2>Uprising</h2>
         <div class="songContent">
