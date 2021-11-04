@@ -1,5 +1,5 @@
 <header>
-    <?php require_once 'C:/xampp/htdocs/nightshifts/backend/config.php'; ?>
+    <?php require_once 'C:/laragon/www/nightshifts/backend/config.php'; ?>
     <div class="logo">
         <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>img/codecamp.png" alt="CodeCamp Logo"></a>
     </div>
