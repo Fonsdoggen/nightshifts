@@ -16,6 +16,11 @@
             <a href="starwars/darth.php">Darth Vader</a> |
             <a href="starwars/luke.php">Luke Skywalker</a>
         </div>
+        <div class="linkBox">
+            <h2>Acteurs</h2>
+            <a href="007/george.php">George Clooney</a> |
+            <a href="007/moore.php">Roger Moore</a>
+        </div>
     </div>
     <?php require_once '../views/footer.php' ?>
 </body>
