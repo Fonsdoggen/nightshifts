@@ -39,8 +39,8 @@ header {
     float: right;
 }
 body{
-    
     margin: 0 auto;
+    cursor: url('../img/cursor.cur'), auto;
 }
 
 /*  Grid songs */
@@ -152,7 +152,7 @@ a{
 }
 
 .green{
-    background: green;
+    background: #317f43;
 }
 
 .center{
