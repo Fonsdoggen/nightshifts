@@ -95,8 +95,9 @@ ul a{
     background: #4682b4;
 }
 
-.MyBaby{
-    background-color: orange;
+.MyBaby {
+    background-color: green;
+    color: red;
 }
 
 a{
@@ -131,7 +132,7 @@ a{
 }
 
 .song-uprising, .song-uprising h2{
-    background-color: green;
+    background-color: red;
     color: red;
     text-align: center;
     margin-top: 0px;
