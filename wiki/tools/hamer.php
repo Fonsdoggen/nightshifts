@@ -9,9 +9,10 @@
 </head>
 <body onload=display_ct();>
     <?php require_once'../../views/header.php' ?>
-    <div id="hamer">       
-        <h2>Typen Hamers</h2>
-        <div id="floated"><a href="https://www.youtube.com/watch?v=otCpCn0l4Wo"><img src="../../img/hamer.jpg" alt="hamer"></a></div>
+    <div id="hamer" class="article">
+        <h1>Typen Hamers</h1>
+        <div class="imgtools"><a href="https://www.youtube.com/watch?v=otCpCn0l4Wo"><img src="../../img/hamer.jpg" alt="hamer"></a></div>
+
         <p>De volgende tabel geeft een overzicht van typen van hamers:
 
 gewone hamer
@@ -34,6 +35,7 @@ smidshamer
 Een hamer met een gevormd gewicht die kan worden gebruikt om (heet) ijzer op een aambeeld vorm te geven.
 </p>
     </div>
+
     <?php require_once'../../views/footer.php' ?>
 </body>
 </html>

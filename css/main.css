@@ -34,6 +34,27 @@ header {
 .song-texts{
     text-align: center;
 }
+/* Hamer Pagina */
+.article{
+    margin: 0 auto;
+}
+.article h1{
+    text-align: center;
+}
+
+.article p{
+    display: flex;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.imgtools img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #floated{
     float: right;
@@ -70,10 +91,10 @@ footer {
     left: 0px;
 }
 
+
 ul p{
     margin: 0 auto;
 }
-
 ul{ 
     display: block;
     list-style-type: disc;
