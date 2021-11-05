@@ -8,10 +8,10 @@
     <title>Bohemian Rhapsody</title>
 </head>
 <body onload=display_ct();>
-    <div class="song-texts qeeun">
+    <div class="song-texts">
         <?php require_once'../../views/header.php' ?>
         <h2>Bohemian Rhapsody</h2>
-        <div class="songContent">
+        <div class="songContent" >
             <iframe src="https://www.youtube.com/embed/fJ9rUzIMcZQ?controls=0">
             </iframe>
             <p>
@@ -76,6 +76,7 @@
         </div>
         <p class="descriptionKiller"><b>Bohemian Rhapsody</b> is een stuk in rapsodische vorm van de Britse muziekgroep Queen. Het verscheen op het album A Night at the Opera uit 1975. Het was een wereldwijde hit voor de groep in 1975/1976 en de heruitgave in 1991 werd ook een hit. Het wordt algemeen beschouwd als een van de succesvolste popnummers aller tijden.</p>
     </div>
+    <?php require_once '../../views/footer.php'; ?>
     
 </body>
 </html>
