@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Uprising</title>
 </head>
-<body class="song-uprising" onload =display_ct();>
+<body onload =display_ct();>
     <?php require_once'../../views/header.php' ?>
-    <div class="song-texts">
-        <?php require_once'../../views/header.php' ?>
+    <div class="song-texts song-uprising">
         <h2>Uprising</h2>
         <div class="songContent">
             <iframe src="https://www.youtube.com/embed/Ek0SgwWmF9w?controls=0">
