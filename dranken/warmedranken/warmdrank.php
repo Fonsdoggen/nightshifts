@@ -16,6 +16,6 @@
     <p>Een caffè latte of latte is een in veel Europese en Amerikaanse gelegenheden geserveerde koffiedrank, gemaakt met espresso en warme melk. Vermoedelijk ligt de oorsprong in de Verenigde Staten, waar de drank uitgevonden zou zijn om de espresso uit de opkomende koffiemachines wat te verzachten. In Italie wordt de term niet of nauwelijks gebruikt. Wie latte bestelt, krijgt melk.In veel Noord-Europese landen wordt het wel aangeduid als café au lait, die eveneens aan het eind van de 20e eeuw zou zijn ontstaan., in Frankrijk als grand crème en in Duitsland als Milchkaffee.Sommige barista's verstaan de kunst om de melk zodanig aan de koffie toe te voegen dat er ware kunstwerkjes ontstaan. Deze techniek wordt latte art genoemd.</p>
     <h2>Thee</h2>
     <p>Thee is een warme drank die wordt gemaakt door infusie van de gedroogde bladeren van de theeplant Camellia sinensis. Alle als thee verkochte producten die niet van deze plant afkomstig zijn (bijvoorbeeld kamillethee of rooibos), zijn dan ook geen echte thee maar kruidenthee.De naam thee komt waarschijnlijk uit het Chinese dialect Minnanyu.</p>
-    <a href="../drank.php"><button>Terug</button></a>
+<!--    <a href="../drank.php"><button>Terug</button></a>-->
 </body>
 </html>
