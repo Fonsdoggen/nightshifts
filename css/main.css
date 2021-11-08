@@ -1,7 +1,41 @@
+/*Css Nightshifts*/
+/*-------------------------------------------------*/
+
 *{
     width: auto;
     height: auto;
 }
+
+body{
+    margin: 0 auto;
+    cursor: url('../img/cursor.cur'), auto;
+}
+
+/*Color's*/
+/*-------------------------------------------------*/
+
+.orange{
+    background-color:  orange;
+}
+
+.paars{
+    background-color: purple;
+}
+
+.yellow{
+    background: yellow;
+}
+
+.green{
+    background: #317f43;
+}
+
+.rood{
+    background-color: red;
+}
+
+/*Header*/
+/*-------------------------------------------------*/
 
 header {
     display: flex;
@@ -20,10 +54,35 @@ header {
     margin-right: 7%;
 }
 
+.dropbtn {
+    background-color: #4682b4;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4mm;
+}
+
+/*Footer*/
+/*-------------------------------------------------*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    left: 0px;
+}
+
+/*Main page*/
+/*-------------------------------------------------*/
 .bigLogo {
     display: flex;
     justify-content: center;
-	align-items: center;
+    align-items: center;
     margin-top: 9%;
 }
 
@@ -31,10 +90,44 @@ header {
     width: 750px;
 }
 
+/*Grid*/
+/*-------------------------------------------------*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-top: 30px;
+}
+
+.linkBox{
+    border: #4682b4 solid 5px;
+    background-color: lightblue;
+    border-radius: 25px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+/*Song Pages*/
+/*-------------------------------------------------*/
+
 .song-texts{
     text-align: center;
 }
-/* Hamer Pagina */
+
+.qeeun{
+    background: #4682b4;
+}
+
+.MyBaby {
+    background-color: green;
+    color: red;
+}
+
+/*Tools pages*/
+/*-------------------------------------------------*/
 .article{
     margin: 0 auto;
 }
@@ -59,37 +152,6 @@ header {
 #floated{
     float: right;
 }
-body{
-    margin: 0 auto;
-    cursor: url('../img/cursor.cur'), auto;
-}
-
-/*  Grid songs */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    padding-top: 30px;
-}
-
-.linkBox{
-    border: #4682b4 solid 5px;
-    background-color: lightblue;
-    border-radius: 25px;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-}
-
-footer {  
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: lightblue;
-    padding: 10px;
-    left: 0px;
-}
 
 
 ul p{
@@ -111,45 +173,13 @@ ul a{
     color:black;
 }
 
-/* qeeun 100% correct*/
-.qeeun{ 
-    background: #4682b4;
-}
-
-.MyBaby {
-    background-color: green;
-    color: red;
-}
 
 a{
     text-decoration: none;
 }
-.orange{
-    background-color:  orange;
-}
-
-.paars{
-    background-color: purple;
-}
-
-/* Dropdown Button*/
-.dropbtn {
-    background-color: #4682b4;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4mm;
-  }
 
 .george{
     width: 25%;
-}
-
-.rood{
-    background-color: red;
 }
 
 .song-uprising, .song-uprising h2{
@@ -166,14 +196,6 @@ a{
 
 .resizes{
     width: 30%;
-}
-
-.yellow{
-    background: yellow;
-}
-
-.green{
-    background: #317f43;
 }
 
 .center{
