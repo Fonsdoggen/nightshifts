@@ -14,7 +14,7 @@
         <div class="songContent">
             <iframe src="https://www.youtube.com/embed/LkXLLpT2OSY?controls=0">
             </iframe>
-            <div class="uprisingtext"
+            <div class="uprisingtext">
                 <p>
                     Allow me in your tub<br>
                     Just allow me in your club<br>
