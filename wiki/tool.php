@@ -16,7 +16,7 @@
         </div>
         <div class="linkBox">
             <h2>Boeken</h2>
-            <a href="boeken/boek.php">Boeken</a> |
+            <a href="boeken/boek.php">Boeken</a>
         </div>
     </div>
     <?php require_once'../views/footer.php'?>
