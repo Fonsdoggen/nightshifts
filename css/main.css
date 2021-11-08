@@ -65,6 +65,18 @@ header {
     border-radius: 4mm;
 }
 
+.logo img{
+    width: 32%;
+}
+
+.nav .dropbtn:hover {
+    background-color: #0d3a5f;
+}
+
+.active {
+    background-color: red;
+}
+
 /*Footer*/
 /*-------------------------------------------------*/
 
@@ -126,6 +138,45 @@ footer {
     color: red;
 }
 
+.song-uprising, .song-uprising h2{
+    background-color: red;
+    color: red;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 150px;
+}
+
+.songContent{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.songContent p{
+    width: 600px;
+    height: 400px;
+    overflow:auto;
+}
+
+.song-texts h2{
+    font-size: 50px;
+}
+
+.descriptionKiller{
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 40px;
+    border-top: 2px solid lightblue;
+    text-align: left;
+    padding-bottom: 100%;
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+}
+
 /*Tools pages*/
 /*-------------------------------------------------*/
 .article{
@@ -182,14 +233,6 @@ a{
     width: 25%;
 }
 
-.song-uprising, .song-uprising h2{
-    background-color: red;
-    color: red;
-    text-align: center;
-    margin-top: 0px;
-    padding-bottom: 150px;
-}
-
 .resize{
     width: 50%;
 }
@@ -201,46 +244,7 @@ a{
 .center{
     text-align: center;
 }
-  /* Change color of dropdown links on hover */            
-  .nav .dropbtn:hover {background-color: #0d3a5f;}                    
 
-  .logo img{
-      width: 32%;
-  }
-
-  .active {
-      background-color: red;
-  }
-.songContent{
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-}
-
-.songContent p{
-    width: 600px;
-    height: 400px;
-    overflow:auto;
-}
-
-.song-texts h2{
-    font-size: 50px;
-}
-
-.descriptionKiller{
-    font-size: 25px;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-top: 40px;
-    border-top: 2px solid lightblue;
-    text-align: left;
-    padding-bottom: 100%;
-}
-
-iframe {
-    width: 600px;
-    height: 400px;
-}
 .Luke{
     background-color: lightgreen;
 
