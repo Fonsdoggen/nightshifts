@@ -29,7 +29,7 @@
                     <a href="https://twitter.com/home"><img src="img/twitter.png" alt="twitter"></a>
                 </div>
                 <div class="instagram">
-                    <a href="https://twitter.com/home"><img src="img/instagram.png" alt="instagram"></a>
+                    <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="instagram"></a>
                 </div>
             </div>
         </ul>
