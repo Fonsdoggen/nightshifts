@@ -248,3 +248,18 @@ a{
     background-color: lightgreen;
 
 }
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.twitter img {
+    margin: 0 auto;
+    width: 7%;
+}
+.instagram img {
+    margin: 0 auto;
+    width: 7%;
+}
