@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="../../css/main.css">
     <title>Frisdranken</title>
 </head>
-<body class="orange" onload=display_ct();>
+<body  onload=display_ct(); class="orange">
     <?php require_once'../../views/header.php' ?>
     <h2>Coca Cola</h2>
     <p>Coca-Cola is een merk cola. Het is een suikerhoudende koolzuurhoudende frisdrank die wordt verhandeld door The Coca-Cola Company. Het is sinds 1893 als handelsmerk geregistreerd. Inmiddels zijn het logo, de flessen en de drank samen een wereldwijd bekend icoon voor de Amerikaanse levensstijl.</p>
-    <a href="<?php echo $base_url; ?>acters/moore.php">Roger Moore</a>
+    <a href="<?php echo $base_url; ?>acters/007/moore.php">Roger Moore</a>
     <h2>Up</h2>
     <p>7Up (of Seven-Up) is een frisdrankmerk van Dr Pepper Snapple Group in de Verenigde Staten en PepsiCo in de rest van de wereld.</p>
     <h2>Sinas</h2>
