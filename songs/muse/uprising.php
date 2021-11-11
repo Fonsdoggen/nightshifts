@@ -12,7 +12,6 @@
 <body onload =display_ct();>
     <div class="song-texts song-uprising">
         <?php require_once'../../views/header.php' ?>
-
         <div class="crumbs">
             <ul>
                 <li><a href="http://localhost/nightshifts/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
