@@ -22,7 +22,17 @@
         <a href="<?php echo $base_url; ?>wiki/tool.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/wiki") !== false){echo "active";} ?>">Wiki</button></a>
         <a href="<?php echo $base_url; ?>dranken/drank.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/dranken") !== false){echo "active";} ?>">Dranken</button></a>
         <a href="<?php echo $base_url; ?>acters/personages.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/acters") !== false){echo "active";} ?>">Movies</button></a>
-        <a href="<?php echo $base_url; ?>admin/admin.php"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], "nightshifts/admin") !== false){echo "active";} ?>">Admin</button></a>
+<!--        <a href="--><?php //echo $base_url; ?><!--admin/admin.php"><button class="dropbtn --><?php //if (strpos($_SERVER['REQUEST_URI'], "nightshifts/admin") !== false){echo "active";} ?><!--">Admin</button></a>-->
+        <?php
+        if(isset($_SESSION['user_id']))
+        {
+            echo "<a class='dropbtn' href='{$base_url}admin/controllers/index.php'>Admin</a>";
+        }
+        else
+        {
+            echo "<a class='dropbtn' href='{$base_url}admin/admin.php'>Log in</a>";
+        }
+        ?>
         <?php
         if(isset($_SESSION['user_id']))
         {
