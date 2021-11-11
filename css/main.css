@@ -242,8 +242,13 @@ a {
     width: 25%;
 }
 
-.resize {
-    width: 50%;
+
+
+.skywalkerimg img{
+
+}
+.skywalker{
+    display: flex;
 }
 
 .resizes {
@@ -253,11 +258,20 @@ a {
 .center {
     text-align: center;
 }
-
+.star p{
+    display: flex;
+    padding-left: 10%;
+}
+.star img{
+    display: flex;
+    padding-left: 10%;
+}
 .Luke{
     background-color: lightgreen;
 }
-
+.skywalker img{
+    
+}
 .social{
     display: flex;
     margin-left: 70%;
