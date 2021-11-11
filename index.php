@@ -30,6 +30,9 @@
             <div class="instagram">
                 <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="instagram"></a>
             </div>
+            <div class="facebook">
+                <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="facebook"></a>
+            </div>
         </div>
     </footer>
 
