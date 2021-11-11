@@ -1,37 +1,42 @@
 /*Css Nightshifts*/
 /*-------------------------------------------------*/
 
-*{
+* {
     width: auto;
     height: auto;
+    font-family: Helvetica;
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url("../doc/font/Helvetica.ttf");
 }
 
-body{
+
+body {
     margin: 0 auto;
-    cursor: url('../img/cursor.cur'), auto;
 }
 
 /*Color's*/
 /*-------------------------------------------------*/
 
-.orange{
-    background-color:  orange;
+.orange {
+    background-color: orange;
 }
 
-.paars{
-    background-color: purple;
+.paars {
+    background-color: #D8BFD8;
 }
 
-.yellow{
-    background: yellow;
+.yellow {
+    background: #D7B740;
 }
 
-.green{
+.green {
     background: #317f43;
 }
 
-.rood{
-    background-color: red;
+.rood {
+    background-color: #cc0000;
 }
 
 /*Header*/
@@ -39,11 +44,11 @@ body{
 
 header {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
     background-color: lightblue;
     padding-right: 10%;
     padding-left: 10%;
@@ -64,7 +69,7 @@ header {
     border-radius: 4mm;
 }
 
-.logo img{
+.logo img {
     width: 32%;
 }
 
@@ -95,10 +100,12 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 9%;
+
 }
 
-.bigLogo img{
+.bigLogo img {
     width: 750px;
+    padding-right: 20px;
 }
 
 /*Grid*/
@@ -112,7 +119,7 @@ footer {
     padding-top: 30px;
 }
 
-.linkBox{
+.linkBox {
     border: #4682b4 solid 5px;
     background-color: lightblue;
     border-radius: 25px;
@@ -124,11 +131,11 @@ footer {
 /*Song Pages*/
 /*-------------------------------------------------*/
 
-.song-texts{
+.song-texts {
     text-align: center;
 }
 
-.qeeun{
+.qeeun {
     background: #4682b4;
 }
 
@@ -137,31 +144,31 @@ footer {
     color: red;
 }
 
-.song-uprising, .song-uprising h2{
-    background-color: red;
+.song-uprising, .song-uprising h2 {
+    background-color: green;
     color: red;
     text-align: center;
     margin-top: 0px;
     padding-bottom: 150px;
 }
 
-.songContent{
+.songContent {
     font-size: 25px;
     display: flex;
     justify-content: center;
 }
 
-.songContent p{
+.songContent p {
     width: 600px;
     height: 400px;
-    overflow:auto;
+    overflow: auto;
 }
 
-.song-texts h2{
+.song-texts h2 {
     font-size: 50px;
 }
 
-.descriptionKiller{
+.descriptionKiller {
     font-size: 25px;
     margin-left: 15%;
     margin-right: 15%;
@@ -178,16 +185,16 @@ iframe {
 
 /*Tools pages*/
 /*-------------------------------------------------*/
-.article{
+.article {
     margin: 0 auto;
 }
-.article h1{
+
+.article h1 {
     text-align: center;
 }
 
-.article p{
+.article p {
     display: flex;
-    text-align: center;
     width: 600px;
     margin: 0 auto;
 }
@@ -199,15 +206,16 @@ iframe {
     margin-right: auto;
 }
 
-#floated{
+#floated {
     float: right;
 }
 
 
-ul p{
+ul p {
     margin: 0 auto;
 }
-ul{ 
+
+ul {
     display: block;
     list-style-type: disc;
     margin-top: 1em;
@@ -216,35 +224,50 @@ ul{
     margin-right: 0;
     padding-left: 40px;
 }
-ul a{
+
+ul a {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
-    color:black;
+    color: black;
 }
 
 
-a{
+a {
     text-decoration: none;
 }
 
-.george{
+.george {
     width: 25%;
 }
 
-.resize{
+.resize {
     width: 50%;
 }
 
-.resizes{
+.resizes {
     width: 30%;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
 .Luke{
     background-color: lightgreen;
+}
 
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.twitter img {
+    margin: 0 auto;
+    width: 7%;
+}
+.instagram img {
+    margin: 0 auto;
+    width: 7%;
 }
