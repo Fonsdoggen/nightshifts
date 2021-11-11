@@ -13,7 +13,8 @@
         <div class="linkBox">
             <h2>Queen</h2>
             <a href="queen/rhapsody.php">Bohemian rhapsody songtekst</a> |
-            <a href="queen/killer.php">Killer queen songtekst</a>
+            <a href="queen/killer.php">Killer queen songtekst</a> |
+            <a href="queen/champions.php">Champions songtekst</a>
         </div>
         <div class="linkBox">
             <h2>Muse</h2>
