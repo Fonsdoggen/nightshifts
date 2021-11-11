@@ -265,8 +265,15 @@ a {
 .twitter img {
     margin: 0 auto;
     height: 40px;
+    padding-left: 10px;
 }
 .instagram img {
     margin: 0 auto;
     height: 40px;
+    padding-left: 10px;
+}
+.facebook img {
+    margin: 0 auto;
+    height: 40px;
+    padding-left: 10px;
 }
