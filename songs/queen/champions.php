@@ -5,14 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/breadcrumbs.css">
+    <script src="https://kit.fontawesome.com/e11f52f4af.js" crossorigin="anonymous"></script>
     <title>We are the champions</title>
 </head>
 <body onload=display_ct();>
-<div class="song-texts qeeun">
+<div class="song-texts queen">
     <?php require_once'../../views/header.php' ?>
-    <h2>We are the champions</h2>
+    <div class="crumbs">
+        <ul>
+            <li><a href="http://localhost/nightshifts/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <li><a href="http://localhost/nightshifts/songs/song.php">Songs</a></li>
+            <li><a href="http://localhost/nightshifts/songs/queen/champions.php"></i>Queen Champions</a></li>
+        </ul>
+    </div>
+    <h2>We are the champions Queen</h2>
     <div class="songContent" >
-        <iframe src="https://www.youtube.com/embed/fJ9rUzIMcZQ?controls=0">
+        <iframe src="https://www.youtube.com/embed/04854XqcfCY">
         </iframe>
         <p>
             I've paid my dues<br>

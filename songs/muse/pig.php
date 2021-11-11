@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/main.css">
-    <title>Plug in baby</title>
+    <link rel="stylesheet" href="../../css/breadcrumbs.css">
+    <script src="https://kit.fontawesome.com/e11f52f4af.js" crossorigin="anonymous"></script>
+    <title>Plug in baby Muse</title>
 </head>
 <body class="orange" onload =display_ct();>
     <div class="song-texts">
         <?php require_once'../../views/header.php'?>
-        <div class="song-texts">
-        <?php require_once'../../views/header.php' ?>
+        <div class="crumbs">
+            <ul>
+                <li><a href="http://localhost/nightshifts/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="http://localhost/nightshifts/songs/song.php">Songs</a></li>
+                <li><a href="http://localhost/nightshifts/songs/muse/pig.php"></i>Plug in baby Songtekst</a></li>
+            </ul>
+        </div>
         <h2>Muse Plug in baby Songtekst</h2>
         <div class="songContent">
             <iframe src="https://www.youtube.com/embed/dbB-mICjkQM?controls=0">

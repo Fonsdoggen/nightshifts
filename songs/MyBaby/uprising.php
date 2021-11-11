@@ -5,11 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/main.css">
-    <title>Bohemian Rhapsody</title>
+    <link rel="stylesheet" href="../../css/breadcrumbs.css">
+    <script src="https://kit.fontawesome.com/e11f52f4af.js" crossorigin="anonymous"></script>
+    <title>Uprising MyBaby</title>
 </head>
 <body onload=display_ct();>
     <div class="song-texts MyBaby">
         <?php require_once'../../views/header.php' ?>
+        <div class="crumbs">
+            <ul>
+                <li><a href="http://localhost/nightshifts/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="http://localhost/nightshifts/songs/song.php">Songs</a></li>
+                <li><a href="http://localhost/nightshifts/songs/MyBaby/uprising.php"></i>MyBaby Uprising</a></li>
+            </ul>
+        </div>
         <h2>Uprising</h2>
         <div class="songContent">
             <iframe src="https://www.youtube.com/embed/LkXLLpT2OSY?controls=0">

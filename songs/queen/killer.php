@@ -5,11 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/breadcrumbs.css">
+    <script src="https://kit.fontawesome.com/e11f52f4af.js" crossorigin="anonymous"></script>
     <title>Killer Queen</title>
 </head>
 <body onload=display_ct();>
-    <div class="song-texts qeeun">
+    <div class="song-texts queen">
         <?php require_once'../../views/header.php' ?>
+        <div class="crumbs">
+            <ul>
+                <li><a href="http://localhost/nightshifts/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href="http://localhost/nightshifts/songs/song.php">Songs</a></li>
+                <li><a href="http://localhost/nightshifts/songs/queen/killer.php"></i>Killer Queen</a></li>
+            </ul>
+        </div>
         <h2>Killer Queen</h2>
         <div class="songContent">
             <iframe src="https://www.youtube.com/embed/2ZBtPf7FOoM?controls=0">
