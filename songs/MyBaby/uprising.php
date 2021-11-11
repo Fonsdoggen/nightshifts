@@ -63,8 +63,9 @@
             </div>
         </div>
         <p class="descriptionKiller"><b>My Baby</b> is een Nederlandse band, opgericht in Amsterdam. My Baby ontstond in 2012 uit drie leden van de Amsterdamse soulband The Souldiers, te weten zangeres-gitariste Cato van Dijck (Marken, 1988), haar broer Joost van Dijck (Marken, 1983) op drums en gitarist Daniel de Vries (Amsterdam, 1981).</p>
+        <?php require_once'../../views/footer.php'?>
     </div>
-    <?php require_once'../../views/footer.php'?>
+
     
 </body>
 </html>

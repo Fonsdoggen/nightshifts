@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../../css/breadcrumbs.css">
     <script src="https://kit.fontawesome.com/e11f52f4af.js" crossorigin="anonymous"></script>
 </head>
-<body onload =display_ct();>
-    <div class="song-texts song-uprising">
+<body class="MyBaby" onload =display_ct();>
+    <div class="song-texts">
         <?php require_once'../../views/header.php' ?>
         <div class="crumbs">
             <ul>
@@ -62,6 +62,7 @@
             </p>
         </div>
     </div>
+    <p class="descriptionKiller"><b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda blanditiis culpa earum fugiat in iste natus nihil nostrum, omnis pariatur quisquam sed! Blanditiis esse fugit id iste rem ut.</p>
     <?php require_once'../../views/footer.php' ?>
 </body>
 </html>

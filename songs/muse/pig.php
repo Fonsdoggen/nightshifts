@@ -52,6 +52,7 @@
             </p>
         </div>
     </div>
+    <p class="descriptionKiller"><b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda blanditiis culpa earum fugiat in iste natus nihil nostrum, omnis pariatur quisquam sed! Blanditiis esse fugit id iste rem ut.</p>
     <?php require_once'../../views/footer.php'?>
 </body>
 </html>
