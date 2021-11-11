@@ -220,7 +220,13 @@ ul a{
     padding-top: 10px;
     color:black;
 }
+.social img{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 5%;
 
+}
 
 a{
     text-decoration: none;
@@ -247,17 +253,4 @@ a{
 
 }
 
-.social{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 500px;
-    padding-right: 500px;
-}
-.twitter img {
-    margin: 0 auto;
-    width: 7%;
-}
-.instagram img {
-    margin: 0 auto;
-    width: 7%;
-}
+
