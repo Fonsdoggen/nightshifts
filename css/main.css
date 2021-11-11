@@ -23,7 +23,7 @@ body {
     background-color: orange;
 }
 
-.paars {
+.purple {
     background-color: #D8BFD8;
 }
 
@@ -200,8 +200,8 @@ iframe {
     margin: 0 auto;
 }
 
-.imgtools img {
-    width: 20%;
+.imgtools{
+    width: 15%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -286,3 +286,8 @@ a {
     height: 40px;
     padding-left: 10px;
 }
+
+/*.container{*/
+/*    text-align: center;*/
+/*    border: 2px solid black;*/
+/*}*/
