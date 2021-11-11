@@ -91,6 +91,7 @@ footer {
     background-color: lightblue;
     padding: 10px;
     left: 0px;
+    display: flex;
 }
 
 /*Main page*/
@@ -259,15 +260,20 @@ a {
 
 .social{
     display: flex;
-    justify-content: space-between;
-    padding-left: 500px;
-    padding-right: 500px;
+    margin-left: 70%;
 }
 .twitter img {
     margin: 0 auto;
-    width: 7%;
+    height: 40px;
+    padding-left: 10px;
 }
 .instagram img {
     margin: 0 auto;
-    width: 7%;
+    height: 40px;
+    padding-left: 10px;
+}
+.facebook img {
+    margin: 0 auto;
+    height: 40px;
+    padding-left: 10px;
 }

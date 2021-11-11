@@ -23,16 +23,17 @@
             <a href="">+31 6 2212022</a>
             <a href="https://duckduckgo.com/?q=koestraat+1+in+Den+Bosch&t=ffab&ia=web&iaxm=maps">Den Bosch Koestraat 1</a>
         </ul>
-        <ul>
-            <div class="social">
-                <div class="twitter">
-                    <a href="https://twitter.com/home"><img src="img/twitter.png" alt="twitter"></a>
-                </div>
-                <div class="instagram">
-                    <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="instagram"></a>
-                </div>
+        <div class="social">
+            <div class="twitter">
+                <a href="https://twitter.com/home"><img src="img/twitter.png" alt="twitter"></a>
             </div>
-        </ul>
+            <div class="instagram">
+                <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="instagram"></a>
+            </div>
+            <div class="facebook">
+                <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="facebook"></a>
+            </div>
+        </div>
     </footer>
 
 </body>
