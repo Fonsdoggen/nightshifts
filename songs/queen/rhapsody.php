@@ -8,7 +8,7 @@
     <title>Bohemian Rhapsody</title>
 </head>
 <body onload=display_ct();>
-    <div class="song-texts qeeun">
+    <div class="song-texts queen">
         <?php require_once'../../views/header.php' ?>
         <h2>Bohemian Rhapsody Queen</h2>
         <div class="songContent" >
