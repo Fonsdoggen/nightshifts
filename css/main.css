@@ -136,7 +136,7 @@ footer {
     text-align: center;
 }
 
-.qeeun {
+.queen {
     background: #4682b4;
 }
 
@@ -242,11 +242,6 @@ a {
     width: 25%;
 }
 
-
-
-.skywalkerimg img{
-
-}
 .skywalker{
     display: flex;
 }
@@ -269,9 +264,7 @@ a {
 .Luke{
     background-color: lightgreen;
 }
-.skywalker img{
-    
-}
+
 .social{
     display: flex;
     margin-left: 70%;
