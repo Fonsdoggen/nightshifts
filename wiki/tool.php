@@ -12,7 +12,8 @@
     <div class="grid-container">
         <div class="linkBox">
             <h2>Gereedschap</h2>
-            <a href="tools/handzagen.php">Handzagen</a> | <a href="tools/hamer.php">Hamers</a> | <a href="tools/schroevendraaier.php">Schroevendraaiers</a>
+            <a href="tools/handzagen.php">Handzagen</a> | <a href="tools/hamer.php">Hamers</a> | <a href="tools/schroevendraaier.php">Schroevendraaiers</a> |
+            <a href="tools/cirkelzagen.php">Cirkelzagen</a>
         </div>
         <div class="linkBox">
             <h2>Boeken</h2>
