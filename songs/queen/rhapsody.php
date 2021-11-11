@@ -10,7 +10,7 @@
 <body onload=display_ct();>
     <div class="song-texts qeeun">
         <?php require_once'../../views/header.php' ?>
-        <h2>Bohemian Rhapsody</h2>
+        <h2>Bohemian Rhapsody Queen</h2>
         <div class="songContent" >
             <iframe src="https://www.youtube.com/embed/fJ9rUzIMcZQ?controls=0">
             </iframe>

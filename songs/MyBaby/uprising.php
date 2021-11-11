@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/main.css">
-    <title>Bohemian Rhapsody</title>
+    <title>Uprising MyBaby</title>
 </head>
 <body onload=display_ct();>
     <div class="song-texts MyBaby">

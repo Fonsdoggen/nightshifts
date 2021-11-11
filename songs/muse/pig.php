@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/main.css">
-    <title>Plug in baby</title>
+    <title>Plug in baby Muse</title>
 </head>
 <body class="orange" onload =display_ct();>
     <div class="song-texts">

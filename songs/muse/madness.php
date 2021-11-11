@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/breadcrumbs.css">
     <script src="https://kit.fontawesome.com/e11f52f4af.js" crossorigin="anonymous"></script>
-    <title>Madness</title>
+    <title>Madness Muse</title>
 </head>
 <body class="rood" onload=display_ct();>
     <div class="song-texts">
