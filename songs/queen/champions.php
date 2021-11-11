@@ -8,9 +8,9 @@
     <title>We are the champions</title>
 </head>
 <body onload=display_ct();>
-<div class="song-texts qeeun">
+<div class="song-texts queen">
     <?php require_once'../../views/header.php' ?>
-    <h2>We are the champions</h2>
+    <h2>We are the champions Queen</h2>
     <div class="songContent" >
         <iframe src="https://www.youtube.com/embed/fJ9rUzIMcZQ?controls=0">
         </iframe>
