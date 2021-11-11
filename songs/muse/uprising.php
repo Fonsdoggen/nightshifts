@@ -62,7 +62,7 @@
             </p>
         </div>
     </div>
-    <p class="descriptionKiller"><b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda blanditiis culpa earum fugiat in iste natus nihil nostrum, omnis pariatur quisquam sed! Blanditiis esse fugit id iste rem ut.</p>
+    <p class="descriptionKiller"><b>Uprising</b> Van Muse's album uit 2009, The Resistance, dat sterk gebaseerd was op het dystopische meesterwerk van George Orwell, 1984. Een uiteindelijk concept van de roman is een rebellie, een 'opstand' tegen de controlerende regering... De hoofdrolspelers beseffen dat ze de macht hebben </p>
     <?php require_once'../../views/footer.php' ?>
 </body>
 </html>

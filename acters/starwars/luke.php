@@ -17,7 +17,7 @@
         </div>
 
         <div class="skywalkerimg">
-            <img src="../../img/skywalker.png" alt="Luke Skywalker">
+            <img src="../../img/luke.png" alt="Luke Skywalker">
         </div>
     </div>
 

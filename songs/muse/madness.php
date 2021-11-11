@@ -58,7 +58,7 @@
             </p>
         </div>
     </div>
-    <p class="descriptionKiller"><b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda blanditiis culpa earum fugiat in iste natus nihil nostrum, omnis pariatur quisquam sed! Blanditiis esse fugit id iste rem ut.</p>
+    <p class="descriptionKiller"><b>Madness</b>Track 2 van hun 6e LP, The 2nd Law. Volgens Bellamy is het nummer geschreven na een ruzie met zijn toenmalige verloofde Kate Hudson:  </p>
     <?php require_once'../../views/footer.php'?>
 </body>
 </html>

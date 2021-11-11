@@ -52,7 +52,7 @@
             </p>
         </div>
     </div>
-    <p class="descriptionKiller"><b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda blanditiis culpa earum fugiat in iste natus nihil nostrum, omnis pariatur quisquam sed! Blanditiis esse fugit id iste rem ut.</p>
+    <p class="descriptionKiller"><b>Plug In Baby</b> Nogmaals, dat is ongeveer het pad dat evolutie kan nemen zoals 'New Born'. Er is de goede kant en de slechte kant; het opgeven van alle individualiteit, het worden van een collectief geheel via kabels en genetisch gemanipuleerde lichamen die in de ruimte kunnen bestaan, of het verlies van individualisme. </p>
     <?php require_once'../../views/footer.php'?>
 </body>
 </html>
