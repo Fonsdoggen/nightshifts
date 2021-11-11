@@ -75,6 +75,7 @@ header {
 
 .nav .dropbtn:hover {
     background-color: #0d3a5f;
+    cursor: pointer;
 }
 
 .active {
@@ -287,3 +288,80 @@ a {
 /*    text-align: center;*/
 /*    border: 2px solid black;*/
 /*}*/
+/* Admin */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    width: 100%;
+}
+
+.container-background{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.col-25 {
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+
+    width: 75%;
+    margin-top: 6px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4682b4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #0d3a5f;
+}
+
+#books {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#books td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#books tr:nth-child(even){background-color: #f2f2f2;}
+
+#books tr:hover {background-color: #ddd;}
+
+#books th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+    background-color: #4682b4;
+    color: white;
+}
+
+.buttonCreate{
+    padding: 30px;
+}

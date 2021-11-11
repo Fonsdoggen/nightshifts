@@ -18,8 +18,7 @@ if(!isset($_SESSION['user_id']))
 
 <body onload=display_ct();>
 <?php require_once '../../views/header.php'; ?>
-<div class="center">
-    <main>
+
         <?php
 
         $id = $_GET['id'];
@@ -45,15 +44,13 @@ if(!isset($_SESSION['user_id']))
                 <input type="submit" class="button" value="Veranderen"> <br> <br>
 
             </form>
-            <form action="../../backend/bookController.php" method="POST">
+            <form action="../..//config/backend/bookcontroller.php" method="POST">
 
                 <input type="hidden" name="action" value="delete">
                 <input type="hidden" name="id" value="<?php echo $item['id'];?>">
                 <input type="submit" class = "button" value="Verwijderen">
             </form>
         </div>
-
-    </main>
 <?php require_once '../../views/footer.php'; ?>
 </body>
 </html>

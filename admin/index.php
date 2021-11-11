@@ -27,9 +27,9 @@ $books = $statement->fetchALL(PDO::FETCH_ASSOC);
 
 ?>
 
-<div class="article">
+    <div class="buttonCreate"><a class="dropbtn" href="controllers/create.php">Create</a></div>
 
-<table class="BooksTable">
+<table class="BooksTable" id="books">
     <tr>
         <th>Titel</th>
         <th>Auteur</th>

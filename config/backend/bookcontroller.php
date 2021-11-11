@@ -37,7 +37,7 @@ if($action == "create")
     require_once '../conn.php';
 
     //2. Query
-    $query = "INSERT INTO taken (title, author, description, price, page_amount)
+    $query = "INSERT INTO books (title, author, description, price, page_amount)
     VALUES(:title, :author, :description, :price, :page_amount)";
 
     //3. Prepare
@@ -51,7 +51,7 @@ if($action == "create")
     ":page_amount" => $_POST['page_amount'],
         ]);
 
-    header("Location:../tasks/index.php?msg-Boek is opgeslagen");
+    header("Location:../../admin/index.php?msg-Boek is opgeslagen");
 }
 
 if($action == "update")
@@ -109,7 +109,7 @@ if($action == "delete")
 
     require_once '../conn.php';
 
-    $query = "DELETE FROM `taken` WHERE id = :id";
+    $query = "DELETE FROM `books` WHERE id = :id";
 
     $statement = $conn->prepare($query);
 
@@ -117,6 +117,6 @@ if($action == "delete")
      ":id" => $id
     ]);
 
-    header("Location: ../tasks/index.php?msg=Boek Verwijderd");
+    header("Location: ../../admin/index.php?msg=Boek Verwijderd");
 }
 
