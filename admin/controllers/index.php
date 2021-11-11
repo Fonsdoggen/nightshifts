@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="nl">
-<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../../css/main.css">
 <?php
     session_start();
     if(!isset($_SESSION['user_id']))
@@ -16,10 +16,10 @@
 </head>
 
 <body onload=display_ct();>
-<?php require_once '../views/header.php'; ?>
+<?php require_once '../../views/header.php'; ?>
 <div class="center">
 <?php
-require_once '../config/conn.php';
+require_once '../../config/conn.php';
 $query = "SELECT * FROM books";
 $statement = $conn->prepare($query);
 $statement->execute([]);
@@ -27,7 +27,7 @@ $books = $statement->fetchALL(PDO::FETCH_ASSOC);
 
 ?>
 
-    <div class="buttonCreate"><a class="dropbtn" href="controllers/create.php">Create</a></div>
+    <div class="buttonCreate"><a class="dropbtn" href="create.php">Create</a></div>
 
 <table class="BooksTable" id="books">
     <tr>
@@ -47,12 +47,12 @@ $books = $statement->fetchALL(PDO::FETCH_ASSOC);
         <td><?php echo $book['description'];?></td>
         <td><?php echo "&euro;".$book['price'];?></td>
         <td><?php echo $book['page_amount'];?></td>
-        <td><?php echo "<a href='controllers/edit.php?id={$book['id']}'>Edit</a>"?></td>
+        <td><?php echo "<a href='edit.php?id={$book['id']}'>Edit</a>"?></td>
 
     </tr>
 <?php endforeach;?>
 
 
 </div>
-    <?php require_once '../views/footer.php' ?>
+    <?php require_once '../../views/footer.php' ?>
 </body>

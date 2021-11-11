@@ -51,7 +51,7 @@ if($action == "create")
     ":page_amount" => $_POST['page_amount'],
         ]);
 
-    header("Location:../../admin/index.php?msg-Boek is opgeslagen");
+    header("Location:../../admin/controllers/index.php?msg-Boek is opgeslagen");
 }
 
 if($action == "update")
@@ -98,7 +98,7 @@ if($action == "update")
         ":id" => $id
     ]);
 
-    header("Location: ../../admin/index.php?msg=Boek opgeslagen");
+    header("Location:../../admin/controllers/index.php?msg=Boek opgeslagen");
 }
 
 
@@ -117,6 +117,6 @@ if($action == "delete")
      ":id" => $id
     ]);
 
-    header("Location: ../../admin/index.php?msg=Boek Verwijderd");
+    header("Location:../../admin/controllers/index.php?msg=Boek Verwijderd");
 }
 

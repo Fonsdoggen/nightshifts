@@ -32,4 +32,4 @@ $user_id = $user['id'];
 
 $_SESSION['user_id'] = $user_id;
 
-header("Location: ../../admin/index.php");
+header("Location: ../../admin/controllers/index.php");

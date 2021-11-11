@@ -290,8 +290,16 @@ a {
 /*}*/
 /* Admin */
 
-input[type=text], select, textarea {
-    width: 100%;
+input[type=text],  select, textarea{
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=password]{
+    width: 300px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -357,7 +365,6 @@ input[type=submit]:hover {
 #books th {
     padding-top: 12px;
     padding-bottom: 12px;
-    
     background-color: #4682b4;
     color: white;
 }
