@@ -65,6 +65,8 @@
     }
 
     function display_ct() {
+        var audio = new Audio("../img/Test.mp3");
+        audio.play();
         var x = new Date()
 
         // date part ///
