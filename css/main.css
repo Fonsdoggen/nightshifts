@@ -304,6 +304,9 @@ a {
     border-radius: 50px;
     padding: 5px;
 }
+.resizedv{
+    width: 60%;
+}
 
 .center {
     text-align: center;
