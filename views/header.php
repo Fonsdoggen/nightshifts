@@ -14,7 +14,7 @@
     }
     ?>
     <div class="logo">
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="<?php echo $base_url; ?>img/HeaderLogo.png" alt="CodeCamp Logo"></a>
+        <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>img/HeaderLogo.png" alt="CodeCamp Logo"></a>
     </div>
     <div class="nav">
         <a href="<?php echo $base_url; ?>"><button class="dropbtn <?php if (strpos($_SERVER['REQUEST_URI'], ".php") == false){echo "active";} ?>">Home</button></a>
