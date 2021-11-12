@@ -289,11 +289,14 @@ a {
 .skywalker{
     display: flex;
 }
-.skywalker img{
 
-}
 .resizes {
     width: 30%;
+}
+
+.resize{
+    width: 30%;
+    border-radius: 50px;
 }
 
 .center {
@@ -340,6 +343,7 @@ a {
     width: 80%;
     margin-top: 50px;
     border-radius: 50px;
+    background-color: lightblue;
 }
 /* Admin */
 
