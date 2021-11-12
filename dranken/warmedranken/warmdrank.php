@@ -9,7 +9,7 @@
 </head>
 <body class="purple" onload=display_ct();>
     <?php require_once'../../views/header.php' ?>
-    <div class="container">
+    <div class="container-admin">
         <h2>Koffie</h2>
         <a href="<?php echo $base_url; ?>acters/007/george.php">George Clooney</a>
         <p>Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant (Coffea spp.) die vanwege hun vorm koffiebonen worden genoemd. Koffie bevat het stimulerende middel cafeïne. De meeste soorten in het geslacht Coffea komen van nature voor in tropisch Afrika en op de eilanden in de Indische Oceaan. Ze vinden hun oorsprong in Ethiopië, Jemen en Soedan.De koffieboon is een belangrijk exportproduct van landen rondom de evenaar, zoals Brazilië, Vietnam en Colombia. Koffieplanten worden vooral gecultiveerd op plantages in tropische landen, voor export naar landen met een gematigd klimaat. Samen met kennis van de drank verspreidde de plant zich vanaf de 15e eeuw uit tropisch Afrika naar Noord-Afrika, het Midden-Oosten en Europa. Sinds de 19e eeuw bevinden de belangrijkste producenten en exporteurs van koffiebonen zich in de tropische gebieden van Zuid- en Centraal-Amerika, Afrika en Azië. De meest geteelde soorten zijn Coffea arabica (arabica) en C. canephora (robusta).Koffie wordt in veel culturen genuttigd. De drank is, voor wat betreft de smaak, bitter en licht zuur en wordt daarom soms aangevuld met melk en/of suiker. Koffie wordt ook als smaakmaker gebruikt in gebak, taart en ijs. Een gematigde consumptie zou een gunstig effect hebben op de gezondheid.</p>

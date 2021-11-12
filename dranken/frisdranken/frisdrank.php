@@ -9,7 +9,7 @@
 </head>
 <body  onload=display_ct(); class="orange">
     <?php require_once'../../views/header.php' ?>
-    <div class="container">
+    <div class="container-admin">
         <h2>Coca Cola</h2>
         <p>Coca-Cola is een merk cola. Het is een suikerhoudende koolzuurhoudende frisdrank die wordt verhandeld door The Coca-Cola Company. Het is sinds 1893 als handelsmerk geregistreerd. Inmiddels zijn het logo, de flessen en de drank samen een wereldwijd bekend icoon voor de Amerikaanse levensstijl.</p>
         <a href="<?php echo $base_url; ?>acters/007/moore.php">Roger Moore</a>
