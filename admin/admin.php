@@ -21,7 +21,7 @@
         </div>
         <div class="form-group">
         <label for="password">Wachtwoord:</label>
-        <input type = "password" name = "password" id = "password">
+        <input type="password" name="password" id="password">
         </div>
         <input type="submit" class="button" value="Login">
     </form>
