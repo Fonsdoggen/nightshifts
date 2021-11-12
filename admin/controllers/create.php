@@ -16,8 +16,7 @@ if(!isset($_SESSION['user_id']))
 <body class="container-background" onload=display_ct();>
 <?php require_once '../../views/header.php'; ?>
 
-
-<div class="form-container">
+<div class="container-admin">
     <form action="../../config/backend/bookcontroller.php" method="POST">
         <div class="form-group">
             <input type="hidden" name="action" value="create">
@@ -40,7 +39,7 @@ if(!isset($_SESSION['user_id']))
             <label for="page_amount">Aantal bladzijdes:</label>
             <input type="text" id="page_amount" name="page_amount" class="col-25">
         </div>
-        <input type="submit" value="Voeg boek toe">
+        <input type="submit" class="button" value="Voeg boek toe">
     </form>
 </div>
 

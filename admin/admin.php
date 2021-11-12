@@ -12,8 +12,6 @@
 <body onload=display_ct();>
     
 <div class="container-admin">
-    
-
     <form action="../config/backend/loginController.php" method="POST">
         <div class="form-group">
         <label for="username">Gebruikersnaam:</label>
