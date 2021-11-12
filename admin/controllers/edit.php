@@ -29,27 +29,29 @@ if(!isset($_SESSION['user_id']))
         $statement->execute([":id"=>$id]);
         $item=$statement->fetch(PDO::FETCH_ASSOC);
         ?>
-        <div class="form-edit">
-            <form action="../../config/backend/bookController.php" method="POST">
+        <div class="container-admin">
+            <div class="form-edit">
+                <form action="../../config/backend/bookController.php" method="POST">
 
-                <input type="hidden" name="action" value="update">
-                <input type="hidden" name= "id" class="textbox" value="<?php echo $id;?>"> <br>
-                <input type="text" name="title" class="textbox" value="<?php echo $item['title'];?>"> <br> <br>
+                    <input type="hidden" name="action" value="update">
+                    <input type="hidden" name= "id" class="textbox" value="<?php echo $id;?>"> <br>
+                    <input type="text" name="title" class="textbox" value="<?php echo $item['title'];?>"> <br> <br>
 
-                <input type="text" name="author" class="textbox" value="<?php echo $item['author'];?>"> <br> <br>
-                <input type="text" name="description" class="textbox" value="<?php echo $item['description'];?>"> <br> <br>
-                <input type="text" name="price"  class="textbox" value="<?php echo $item['price'];?>"> <br> <br>
-                <input type="text" class="textbox" name="page_amount" value="<?php echo $item['page_amount'];?>"> <br> <br>
+                    <input type="text" name="author" class="textbox" value="<?php echo $item['author'];?>"> <br> <br>
+                    <input type="text" name="description" class="textbox" value="<?php echo $item['description'];?>"> <br> <br>
+                    <input type="text" name="price"  class="textbox" value="<?php echo $item['price'];?>"> <br> <br>
+                    <input type="text" class="textbox" name="page_amount" value="<?php echo $item['page_amount'];?>"> <br> <br>
 
-                <input type="submit" class="button" value="Veranderen"> <br> <br>
+                    <input type="submit" class="button" value="Veranderen"> <br> <br>
 
-            </form>
-            <form action="../..//config/backend/bookcontroller.php" method="POST">
+                </form>
+                <form action="../..//config/backend/bookcontroller.php" method="POST">
 
-                <input type="hidden" name="action" value="delete">
-                <input type="hidden" name="id" value="<?php echo $item['id'];?>">
-                <input type="submit" class = "button" value="Verwijderen">
-            </form>
+                    <input type="hidden" name="action" value="delete">
+                    <input type="hidden" name="id" value="<?php echo $item['id'];?>">
+                    <input type="submit" class = "button" value="Verwijderen">
+                </form>
+            </div>
         </div>
 <?php require_once '../../views/footer.php'; ?>
 </body>
