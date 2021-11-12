@@ -9,7 +9,7 @@
 </head>
 <body onload=display_ct();>
     <?php require_once '../../views/header.php' ?>
-    <div class="center">
+    <div class="container-admin">
         <h2>Alle James Bond films met Roger Moore</h2>
         <a href="https://www.imdb.com/title/tt0070328/?ref_=nv_sr_srsg_0">1973 Live And Let Die</a><br>
         <a href="https://www.imdb.com/title/tt0071807/?ref_=nv_sr_srsg_0">1974 The Man With The Golden Gun</a><br>

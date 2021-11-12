@@ -279,11 +279,12 @@ a {
     text-decoration: none;
 }
 
-.george {
+.george img{
+    width: 400px;
     display: flex;
 }
 .dalton{
-    display: flex;
+    color: white;
 }
 .skywalker{
     display: flex;
