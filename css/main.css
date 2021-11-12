@@ -90,16 +90,15 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: stretch;
     background-color: lightblue;
     padding-right: 10%;
-    padding-left: 10%;
 }
 
 .nav {
-    margin-right: 7%;
+    margin-right: 15%;
 }
 
 .dropbtn {
@@ -115,6 +114,7 @@ header {
 
 .logo img {
     width: 32%;
+
 }
 
 .nav .dropbtn:hover {
@@ -333,10 +333,14 @@ a {
     padding-left: 10px;
 }
 
-/*.container{*/
-/*    text-align: center;*/
-/*    border: 2px solid black;*/
-/*}*/
+.container{
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    border-radius: 50px;
+}
 /* Admin */
 
 input[type=text],  select, textarea{

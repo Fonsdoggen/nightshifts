@@ -10,7 +10,7 @@
 <body onload=display_ct();>
     <?php require_once'../../views/header.php' ?>
     <div class="container">
-        <div id="hamer" class="article">
+        <div id="hamer">
             <h1>Typen Hamers</h1>
                 <p>De volgende tabel geeft een overzicht van typen van hamers:
                 gewone hamer
