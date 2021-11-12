@@ -10,7 +10,6 @@
 <body onload=display_ct();>
 <?php require_once '../../views/header.php' ?>
 <div class="container">
-    <div class="article">
         <h1>Handzagen</h1>
         <p>Een handzaag is een zaag met een taps toelopend, veerkrachtig stalen zaagblad dat voorzien is van een
             handvat. Het blad is ongeveer 1 mm dik, 400 à 500 mm lang, en circa 100 mm breed. De tanden van de zaag (met
