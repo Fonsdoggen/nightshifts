@@ -32,7 +32,7 @@
                 smidshamer
                 Een hamer met een gevormd gewicht die kan worden gebruikt om (heet) ijzer op een aambeeld vorm te geven.
                 </p>
-            <a href="https://www.youtube.com/watch?v=otCpCn0l4Wo"><img src="../../img/hamer.png" alt="hamer" class="imgtools"></a>
+            <a href="https://youtu.be/otCpCn0l4Wo?t=130"><img src="../../img/hamer.png" alt="hamer" class="imgtools"></a>
         </div>
     </div>
 

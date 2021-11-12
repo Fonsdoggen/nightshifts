@@ -17,7 +17,7 @@
             Cirkelzaagbladen bestaan in soorten en maten, met allerlei verschillende vertandingen, en ook de diameter kan sterk verschillen (normaal is ca. 25 cm, maar industriële cirkelzagen met veel grotere bladen bestaan ook). De maximale zaagdiepte wordt bepaald door de straal van het cirkelzaagblad.
 
             Een cirkelzaag die bedoeld is om latten, buizen, houten balken en dergelijke te zagen wordt ook wel een afkorter of afkortzaag genoemd. </p>
-        <img src="../../img/cirkelzaag.jpg" alt="cirkelzaag" class="imgtools">
+        <img src="../../img/cirkelzaag.png" alt="cirkelzaag" class="imgtools">
     </div>
 </div>
 
