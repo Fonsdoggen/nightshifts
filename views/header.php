@@ -25,11 +25,25 @@
         <?php
         if(isset($_SESSION['user_id']))
         {
-            echo "<a class='dropbtn' href='{$base_url}admin/controllers/index.php'>Admin</a>";
+            if (strpos($_SERVER['REQUEST_URI'], "admin/controllers") !== false)
+            {
+                echo "<a class='dropbtn active' href='{$base_url}admin/controllers/index.php'>Admin</a>";
+            }
+            else
+            {
+                echo "<a class='dropbtn' href='{$base_url}admin/controllers/index.php'>Admin</a>";
+            }
         }
         else
         {
-            echo "<a class='dropbtn' href='{$base_url}admin/admin.php'>Log in</a>";
+            if (strpos($_SERVER['REQUEST_URI'], "admin/admin.php") !== false)
+            {
+                echo "<a class='dropbtn active' href='{$base_url}admin/admin.php'>Log in</a>";
+            }
+            else
+            {
+                echo "<a class='dropbtn' href='{$base_url}admin/admin.php'>Log in</a>";
+            }
         }
         ?>
         <?php
