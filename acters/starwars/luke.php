@@ -9,7 +9,7 @@
 </head>
 <body onload=display_ct(); class="green">
     <?php require_once '../../views/header.php' ?>
-    <div class="skywalker">
+    <div class="container-admin">
         <div class="skywalkertext">
             <h2>Luke Skywalker</h2>
             <p>Luke speelt een grote rol in het Star Wars Expanded Universe. Hierin is het leven van Luke Skywalker zeer uitgebreid (ook over de periodes door de films worden overlapt, maar niet worden getoond). Het is bijvoorbeeld Luke die de locatie op Hoth vindt, waar de rebellen zich hebben gehergroepeerd in Episode V. Tevens wordt hij tussentijds verliefd op Shira Brie, die hij kort daarna per ongeluk zou doden, tijdens een gevecht waarbij hij wederom moest vertrouwen op zijn kracht als Jedi. </p>

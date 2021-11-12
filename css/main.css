@@ -83,6 +83,10 @@ input[type=submit] {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.buttonCreate{
+    padding: 30px;
+}
+
 /*Header*/
 /*-------------------------------------------------*/
 
@@ -286,29 +290,12 @@ a {
 .dalton{
     color: white;
 }
-.skywalker{
-    display: flex;
-}
-.skywalker img{
 
+.resize {
+    width: 50%;
 }
-.resizes {
-    width: 30%;
-}
-
 .center {
     text-align: center;
-}
-.star p{
-    display: flex;
-    padding-left: 10%;
-}
-.star img{
-    display: flex;
-    padding-left: 10%;
-}
-.Luke{
-    background-color: lightgreen;
 }
 
 .social{
@@ -344,14 +331,6 @@ a {
 /* Admin */
 
 input[type=text],  select, textarea{
-    width: 300px;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-}
-
-input[type=password]{
     width: 300px;
     padding: 12px;
     border: 1px solid #ccc;
@@ -410,9 +389,6 @@ label {
     color: white;
 }
 
-.buttonCreate{
-    padding: 30px;
-}
 .boek{
     display: flex;
 }
