@@ -302,6 +302,7 @@ a {
 .resize{
     width: 30%;
     border-radius: 50px;
+    padding: 5px;
 }
 
 .center {
